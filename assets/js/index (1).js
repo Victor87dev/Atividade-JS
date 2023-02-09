@@ -161,3 +161,74 @@ switch('d'){
     console.log('consoante'); break;
 }
 */
+
+//objeto ---------------------------------------------
+
+/*
+let nome = 'Rafael'; //string literal
+let idade = 25; // number literal
+let estaAprovado = true; //boolean
+let sobrenome; undefined; //Undefined
+let profissao = 'dev';
+let lazer = 'academia';
+
+let pessoa = {
+    nome: 'Rafael',
+    idade: 25,
+    estaAprovado: true,
+    sobrenome: 'sampaio',
+    profissao: 'dev',
+    lazer: 'academia'
+
+};
+
+console.log(pessoa);
+*/
+
+
+// arrays ------------------------------------------------
+
+/*
+let familia = [35,19,18,77];
+
+console.log(familia.length);
+
+console.log(familia[0]);
+*/
+
+/*
+let meuColega = ['Amorim',21,'solteiro','marinha'];
+
+console.log(meuColega[1]);
+*/
+
+//funcion -----------------------------------------
+
+//verbo + substantivo
+
+/*
+let corSite = "amarelo";
+function resetaCor(cor,tonalidade){
+    corSite = cor + tonalidade;
+
+};
+
+console.log(corSite);
+resetaCor("vermelho", " escuro");
+console.log(corSite);
+*/
+
+
+/*
+let minhaAcademia = "wefit";
+
+function mudarAcademia(acad, local){
+
+    minhaAcademia = acad + local;
+
+};
+
+console.log(minhaAcademia);
+mudarAcademia("green", " jordao baixo");
+console.log(minhaAcademia);
+*/
