@@ -232,3 +232,59 @@ console.log(minhaAcademia);
 mudarAcademia("green", " jordao baixo");
 console.log(minhaAcademia);
 */
+
+// rocketseat -------------------------------------------
+
+/*
+var weight 
+
+let name = 'jose'
+let abi = 18
+let stars = 18.1
+let isSubscribed = true  
+*/
+
+/*
+let student = {
+
+};
+
+console.log(typeof student)
+*/
+
+
+
+
+
+/*
+console.log(`${student.name} tem ${student.idade} e pesa ${student.star} kg ` )
+
+
+console.log(student.name + ' tem ' + student.idade + ' e pesa ' + student.star + ' kg ')
+*/
+
+/*
+
+let student = {
+    name: 'joao',
+    idade: 20,
+    peso: 10.4
+}
+
+let students = [
+    student
+]
+
+
+let mark = {
+    name: 'rock',
+    idade:15,
+    peso:48.5
+}
+
+
+students[1] = mark
+
+console.log(students)
+
+*/
