@@ -569,12 +569,27 @@ function Person(name,idade){
 
     this.name = name
     this.idade = idade
+    this.walk = function (){
+        return this.name + ' de ' + this.idade + ' esta andando'
+    }
 
     
 }
 
 const mayk = new Person('mayk', 20)
 const joao = new Person('joao', 45)
-console.log(mayk)
-console.log(joao)
+console.log(mayk.walk())
+console.log(joao.walk())
+*/
+
+// transformando string em numero e numero em string 
+
+/*
+let numero = 10
+
+console.log(String(numero))
+
+let string = '10'
+
+console.log(Number(string))
 */
