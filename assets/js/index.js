@@ -460,9 +460,121 @@ let resultadoIMC = calcularImc (peso,altura)
 
 function calcularImc (){
 
-    return peso * altura 
+    return altura * altura
 }
 
-document.write(`seu imc é: ${resultadoIMC}` )
+let resultadoFinal = imcCalculo (peso,resultadoIMC)
 
+function imcCalculo (){
+
+    return peso / resultadoIMC
+}
+
+document.write(`seu imc é: ${resultadoFinal}`)
+*/
+
+// apredendo o significado de função --------------------------------
+
+/*
+function criandoFrases (){
+    console.log('estudar é muito bom')
+    console.log('persistir é a chave')
+    console.log('nunca desistir')
+}
+
+criandoFrases()
+criandoFrases()
+
+console.log('fim do programa')
+*/
+
+/*
+const sum = function(number1,number2){
+
+    total = (number1 + number2)
+    return total
+}
+
+let number1 = 5
+let number2 = 7
+
+console.log(`o numero 1 é ${number1}`)
+console.log(`o numero 2 é ${number2}`)
+console.log(`a soma do numero 1 e numero 2 é:  ${sum(number1,number2)}`)
+
+console.log(total)
+*/
+
+// nunca declarar uma variavel sem usar operador especial (var,let ou const)
+
+/*
+function fazerSuco(numero1,numero2){
+    return 'suco de:' + (numero1 + numero2)
+}
+
+const copo = fazerSuco(1,2)
+
+console.log(copo)
+
+*/
+
+// function hoisting, chamando a função antes de executala (nao tem problema)
+
+/*
+sayMyName()
+
+function sayMyName(){
+    console.log('joao')
+}
+*/
+
+// arrow function 
+
+/*
+const sayMyName = () => {
+
+    console.log('joao')
+
+}
+
+sayMyName()
+
+*/
+
+// callback function, função dentro de função ---------------
+
+/*
+function sayMyName (name){
+    console.log('antes da callback')
+
+    name()
+
+    console.log('depois callback')
+}
+
+sayMyName (
+    () => {
+
+        console.log('estou aqui dentro')
+
+    }
+    )
+
+*/
+
+// function construtor ---------------------------------
+
+/*
+function Person(name,idade){
+
+    this.name = name
+    this.idade = idade
+
+    
+}
+
+const mayk = new Person('mayk', 20)
+const joao = new Person('joao', 45)
+console.log(mayk)
+console.log(joao)
 */
