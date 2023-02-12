@@ -675,4 +675,14 @@ let nome = 'estudar é muito bom'
 console.log(nome.toUpperCase().toLowerCase())
 */
 
+// estrutura de repetição for
+
+/*
+for (let i = 0; i < 11; i++){
+
+    console.log('5x' + i + "=" + 5*i)
+
+}
+*/
+
 
