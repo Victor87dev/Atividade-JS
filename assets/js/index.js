@@ -650,3 +650,29 @@ let menor = Math.min(numero1,numero2,numero3)
 
 alert(`o maior numero é:  ${maior} e o menor: ${menor}`)
 */
+
+// descobrindo quantos caracteres tem uma palavra e quantos digitos tem um numero
+
+/*
+let palavra = "paralelepipedo"
+console.log(palavra.length)
+
+let numero = 1788
+console.log(String(numero).length)
+*/
+
+// transformar um numero quebrado em duas casas decimais e trocar ponto por virgula 
+
+/*
+let numero = 444.77777288
+console.log(numero.toFixed(2).replace("." , ","))
+*/
+
+// transformando letras minusculas em maiusculas 
+
+/*
+let nome = 'estudar é muito bom'
+console.log(nome.toUpperCase().toLowerCase())
+*/
+
+
