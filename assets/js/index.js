@@ -593,3 +593,60 @@ let string = '10'
 
 console.log(Number(string))
 */
+
+/*
+let joao = function (jogo1,jogo2){
+
+    return jogo1 + jogo2 
+
+}
+
+
+console.log(joao(10,15))
+*/
+
+/*
+let io = 48
+let oi = 2
+let lucas = gratifi (io,oi)
+
+
+
+function gratifi (){
+
+    return 'a soma dos numeros:' + (io / oi)
+
+}
+
+
+
+
+
+console.log(lucas)
+*/
+
+// exercicio 1 -----------------------------------
+
+/*
+let idade1 = (prompt('informe a sua idade: '))
+
+if (idade1 >= 18){
+    alert(`${idade1}, maior de idade`)
+}else{
+
+    alert(`${idade1}, menor de idade`)
+}
+*/
+
+// exercicio 2 --------------------------------------
+
+/*
+let numero1 = (prompt(`digite o primeiro numero: `))
+let numero2 = (prompt(`digite o segundo numero: `))
+let numero3 = (prompt(`digite o terceiro numero: `))
+
+let maior = Math.max(numero1,numero2,numero3)
+let menor = Math.min(numero1,numero2,numero3)
+
+alert(`o maior numero é:  ${maior} e o menor: ${menor}`)
+*/
