@@ -88,6 +88,7 @@ alert('sexo: feminino')
 
 // ---------------- condition + prompt --------------------------
 
+// atividade 1 ------------------------------------
 /*
 let valor1 = prompt('digite o valor:')
 let valor2 = prompt('digite o valor:')
@@ -99,6 +100,7 @@ if(valor1 > valor2){
 }
 */
 
+// atividade 2 -----------------------------------------
 
 /*
 let nota1 = parseInt (prompt('digite a primeira nota: '))
@@ -124,6 +126,8 @@ if(media >= 7){
 }
 */
 
+// atividade 3 ------------------------------------------
+
 /*
 let idade1 = (prompt('informe a sua idade: '))
 
@@ -134,6 +138,8 @@ if (idade1 >= 18){
     alert(`${idade1}, menor de idade`)
 }
 */
+
+// atividade 4 ---------------------------------------
 
 /*
 let data = (prompt("informe o ano de nascimento da pessoa: "))
