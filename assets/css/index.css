@@ -1,3 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
-  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  text-align: center;
+}
+
+.calcularSub{
+  margin-top: 5px;
+}
+
+.calcularMulti{
+  margin-top: 5px;
+}
+
+.calcularDivisao{
+  margin-top: 5px;
+}
+
+
+
+.mod{
+  margin-top: 30px;
+  padding: 20px;
 }

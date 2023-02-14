@@ -685,4 +685,146 @@ for (let i = 0; i < 11; i++){
 }
 */
 
+// exercicio 1 -----------------------------------------------
+
+/*
+let valor1 = parseInt(prompt("insira o primeiro numero: "))
+let valor2 = parseInt(prompt("insira o segundo numero: "))
+
+let somar = somarNumeros(valor1,valor2)
+
+function somarNumeros(){
+    return valor1 + valor2
+}
+
+let subtrair = subtrairNumeros(valor1,valor2)
+
+function subtrairNumeros(){
+    return valor1 - valor2
+}
+
+let multiplicar = multiplicarNumeros(valor1,valor2)
+
+function multiplicarNumeros(){
+
+    return valor1 * valor2
+}
+
+let divisao = dividirNumeros(valor1,valor2)
+
+function dividirNumeros(){
+
+    return valor1 / valor2
+}
+
+console.log(somar)
+console.log(subtrair)
+console.log(multiplicar)
+console.log(divisao)
+*/
+
+// exercicio 2 ----------------------------------------------------
+
+/*
+let nome = (prompt("digite o nome do usuario: "))
+
+console.log(nome)
+document.write(nome)
+alert(nome)
+ */
+
+// exercicio 3 ----------------------------------------------------
+
+/*
+let data = (prompt("informe o ano de nascimento da pessoa: "))
+let ano = 2023
+
+let idade = idadeSoma(ano,data)
+
+function idadeSoma(){
+    return ano - data
+}
+
+if(idade >= 18){
+
+    alert(`${idade}, pessoa maior de idade`)
+
+}else{
+
+    alert(`${idade}, pessoa menor de idade`)
+
+}
+*/
+
+// exercicio 4------------------------------------------------
+
+/*
+let nota1 = parseFloat(prompt(" nota1: "))
+let nota2 = parseFloat(prompt(" nota2: "))
+let nota3 = parseFloat(prompt(" nota3: "))
+
+let soma = somaDasNotas(nota1,nota2,nota3)
+
+function somaDasNotas(){
+    return nota1 + nota2 + nota3
+}
+
+let resultado = (soma/3)
+
+console.log(`sua media foi: ${resultado.toFixed(2)}`)
+*/
+
+// exercicio 5 -------------------------------------------------
+
+
+function somar(){
+    
+    let v1 = parseFloat (document.getElementById("v1").value)
+    let v2 = parseFloat (document.getElementById("v2").value)
+    document.getElementById("resultado").innerHTML = "resposta: " + (v1+v2)
+
+  resultado.style.background = 'red'
+
+
+}
+
+function subtrair(){
+    
+    let v1 = parseFloat (document.getElementById("v1").value)
+    let v2 = parseFloat (document.getElementById("v2").value)
+    document.getElementById("resultado").innerHTML = "resposta: " + (v1-v2)
+
+    resultado.style.background = 'blue'
+
+
+
+}
+
+function multi(){
+    
+    let v1 = parseFloat (document.getElementById("v1").value)
+    let v2 = parseFloat (document.getElementById("v2").value)
+    document.getElementById("resultado").innerHTML = "resposta: " + (v1*v2)
+
+
+    resultado.style.background = 'yellow'
+
+}
+
+function dividir(){
+    
+    let v1 = parseFloat (document.getElementById("v1").value)
+    let v2 = parseFloat (document.getElementById("v2").value)
+    document.getElementById("resultado").innerHTML = "resposta: " + (v1/v2)
+
+
+    resultado.style.background = 'green'
+
+}
+
+function todasRespostas(){
+    let v1 = parseFloat (document.getElementById("v1").value)
+    let v2 = parseFloat (document.getElementById("v2").value)
+    document.getElementById("Resultados").innerHTML = "resposta da soma: " + (v1+v2) + " resposta subtração: " + (v1-v2) + " resposta da multiplicação: " + (v1*v2) + " resposta da divisão: " + (v1/v2)
+}
 
