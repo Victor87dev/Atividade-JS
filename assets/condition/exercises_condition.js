@@ -1,5 +1,6 @@
 //--------------- condition structure ----------------------------
 
+// atividade 1 --------------------------------------
 
 /*
 let resultado = confirm('O valor está correto ?');
@@ -13,6 +14,8 @@ if(resultado==true){
 
 }
 */
+
+// atividade 2 ---------------------------------------------
 
 /*
 let as = 5;
@@ -30,21 +33,9 @@ if(as > bs){
 
 
 
-if(as > bs){
-    alert('as é maior')
-}else{
-    alert('as é menor')
-}
-
-
-
-if(as > bs){
-    console.log('as é maior')
-}else{
-    console.log('as é menor')
-}
-
 */
+
+// atividade 3 --------------------------------------------
 
 /*
 let letraA = 22.50;
@@ -61,6 +52,8 @@ if(letraA > letraB){
 }
 */
 
+// atividade 4 ----------------------------------------
+
 /*
 let valor = 5;
 
@@ -74,6 +67,8 @@ if(valor >= 0){
     console.log(valor, ' negativo');
 }
 */
+
+// atividade 5 --------------------------------------
 
 /*
 let letra = 'm'
@@ -176,9 +171,4 @@ switch('d'){
     console.log('consoante'); break;
 }
 */
-
-
-
-
-
 

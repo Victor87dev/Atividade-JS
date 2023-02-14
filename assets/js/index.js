@@ -777,7 +777,7 @@ console.log(`sua media foi: ${resultado.toFixed(2)}`)
 
 // exercicio 5 -------------------------------------------------
 
-
+/*
 function somar(){
     
     let v1 = parseFloat (document.getElementById("v1").value)
@@ -829,3 +829,4 @@ function todasRespostas(){
     document.getElementById("Resultados").innerHTML = "resposta da soma: " + (v1+v2) + " resposta subtração: " + (v1-v2) + " resposta da multiplicação: " + (v1*v2) + " resposta da divisão: " + (v1/v2)
 }
 
+*/

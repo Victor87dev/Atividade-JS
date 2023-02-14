@@ -1,39 +1,8 @@
 // --------------------- function------------------------------
 
-//verbo + substantivo
-
-// atividade 1 ------------------------------------------------
-
-/*
-let corSite = "amarelo";
-function resetaCor(cor,tonalidade){
-    corSite = cor + tonalidade;
-
-};
-
-console.log(corSite);
-resetaCor("vermelho", " escuro");
-console.log(corSite);
-*/
-
-// ativiade 2 -------------------------------------------------
 
 
-/*
-let minhaAcademia = "wefit";
-
-function mudarAcademia(acad, local){
-
-    minhaAcademia = acad + local;
-
-};
-
-console.log(minhaAcademia);
-mudarAcademia("green", " jordao baixo");
-console.log(minhaAcademia);
-*/
-
-// atividade 3 -----------------------------------------
+// atividade 1 -----------------------------------------
 
 
 /*
@@ -60,7 +29,7 @@ function Idade(){
 */
 
 
-// atividade 4 -------------------------------------------------
+// atividade 2 -------------------------------------------------
 
 
 /*
@@ -81,7 +50,7 @@ let resultadoFinal = (resultadoS / imposto)
 
 */
 
-// ativiade 5 --------------------------------------------
+// ativiade 3 --------------------------------------------
 
 /*
 let numero1 =  parseFloat(prompt("digite o primeiro numero : "))
@@ -122,7 +91,7 @@ console.log(`soma função: ${somaDosNumeros} , subtração função: ${subtraca
 */
 
 
-// atividade 6 ---------------------------------------------------
+// atividade 4 ---------------------------------------------------
 
 /*
 let valorDeVendas = parseFloat (prompt("digite o valor total de vendas: "))
@@ -138,7 +107,7 @@ document.write(`o lucro da empresa é: ${lucroDaEmpresa}`)
 */
 
 
-// atividade 7 --------------------------------------------
+// atividade 5 --------------------------------------------
 
 /*
 let peso = parseFloat (prompt("informe o seu peso: "))
@@ -163,7 +132,7 @@ function imcCalculo (){
 document.write(`seu imc é: ${resultadoFinal}`)
 */
 
-// atividade 8 -----------------------------------------------
+// atividade 6 -----------------------------------------------
 
 /*
 let valor1 = parseInt(prompt("insira o primeiro numero: "))
@@ -201,7 +170,7 @@ console.log(multiplicar)
 console.log(divisao)
 */
 
-// atividade 9 --------------------------------------------
+// atividade 7 --------------------------------------------
 
 /*
 let data = (prompt("informe o ano de nascimento da pessoa: "))
@@ -224,7 +193,7 @@ if(idade >= 18){
 }
 */
 
-// atividade 10 ------------------------------------------------
+// atividade 8 ------------------------------------------------
 
 /*
 let nota1 = parseFloat(prompt(" nota1: "))
@@ -243,7 +212,7 @@ console.log(`sua media foi: ${resultado.toFixed(2)}`)
 */
 
 
-// atividade 11 ----------------------------------------------
+// atividade 9 ----------------------------------------------
 
 /*
 function somar(){
