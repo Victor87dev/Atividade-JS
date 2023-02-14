@@ -23,9 +23,9 @@ if(resultado==true){
 /*
 let as = 5;
 let bs = 7;
-*/
 
-/*
+
+
 if(as > bs){
    document.write('as é maior')
 
@@ -33,22 +33,23 @@ if(as > bs){
 
     document.write('as é menor')
 }
-*/
 
-/*
+
+
 if(as > bs){
     alert('as é maior')
 }else{
     alert('as é menor')
 }
-*/
 
-/*
+
+
 if(as > bs){
     console.log('as é maior')
 }else{
     console.log('as é menor')
 }
+
 */
 
 /*
