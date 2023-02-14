@@ -89,6 +89,10 @@ alert('sexo: feminino')
 }
 */
 
+
+
+// ---------------- condition + prompt --------------------------
+
 /*
 let valor1 = prompt('digite o valor:')
 let valor2 = prompt('digite o valor:')
@@ -100,7 +104,6 @@ if(valor1 > valor2){
 }
 */
 
-// ---------------- condition + prompt --------------------------
 
 /*
 let nota1 = parseInt (prompt('digite a primeira nota: '))
@@ -125,4 +128,55 @@ if(media >= 7){
     alert('aluno reprovado')
 }
 */
+
+/*
+let idade1 = (prompt('informe a sua idade: '))
+
+if (idade1 >= 18){
+    alert(`${idade1}, maior de idade`)
+}else{
+
+    alert(`${idade1}, menor de idade`)
+}
+*/
+
+/*
+let data = (prompt("informe o ano de nascimento da pessoa: "))
+let ano = 2023
+
+let idade = idadeSoma(ano,data)
+
+function idadeSoma(){
+    return ano - data
+}
+
+if(idade >= 18){
+
+    alert(`${idade}, pessoa maior de idade`)
+
+}else{
+
+    alert(`${idade}, pessoa menor de idade`)
+
+}
+*/
+
+// ---------------------- switch - case -------------------------
+
+/*
+let letra = 'd'
+
+switch('d'){
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u': console.log('vogal');break;
+    default:
+    console.log('consoante'); break;
+}
+*/
+
+
+
 
