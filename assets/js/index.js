@@ -830,3 +830,110 @@ function todasRespostas(){
 }
 
 */
+
+// manipulando strings -----------------------------------
+
+// verificando se o texto contem a palavra amor
+
+/*
+let phrase = "eu quero viver o Amor"
+console.log(phrase.includes("amor"))
+*/
+
+// manipulando arrays --------------------------------------
+
+// criando array com construtor 
+
+/*
+let myArray = new Array('a', 'b', 'c') 
+console.log(myArray)
+*/
+
+// contar quantos elementos tem no array -------------------
+/*
+console.log(['a', 'b', 'c'].length)
+*/
+
+
+// transformando uma cadeia de caracteres em elementos de um array ----------------------
+
+/*
+let word = "manipulação"
+console.log(Array.from(word))
+console.log(word[1])
+*/
+
+
+// manipulando dados do array ----------------------
+// -------------------------------------------
+
+//let techs = ["html", "css", "js"]
+
+// adicionar um item no fim 
+//techs.push("nodejs")
+// adicionar um no começo 
+//techs.unshift("sql")
+// remover do fim 
+//techs.pop()
+// remover do começo 
+//techs.shift()
+// pegar somente alguns elemnetos do array 
+//console.log(techs.slice(1,3))
+//remover 1 ou mais itemns em qualquer posição do array 
+//techs.splice(1,2)
+// encontrar a posição de um elemento array 
+
+//let index = techs.indexOf('css')
+//techs.splice(index, 1)
+//console.log(techs)
+
+//----------------------------------------------------------------
+
+// 2 modos de crir objetos 
+
+/*
+
+modo 1 usando 'new'
+
+let name = new String('mayk')
+let age = new Number(23)
+
+console.log(name, age)
+*/
+
+/*
+const person = {
+
+    name: 'mayk',
+    age: 25
+
+
+}
+
+console.log(person)
+*/
+
+// delete person.age
+
+
+//------------------------------------------
+
+// operador condicional (ternario)
+
+// dependendo da condição, nos receberemos valores diferentes
+/*
+let pao = true
+let queijo = false
+
+let condicao = pao && queijo ? "cafe da manha top" : "cafe da manha ruim"
+
+console.log(condicao)
+*/
+// -------------------------------------------
+/*
+let idade = 17
+
+let podeDirigir = idade >= 18 ? "pode" : "nao pode"
+
+console.log(podeDirigir)
+*/
