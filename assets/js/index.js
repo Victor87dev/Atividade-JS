@@ -937,3 +937,59 @@ let podeDirigir = idade >= 18 ? "pode" : "nao pode"
 
 console.log(podeDirigir)
 */
+
+// estrutura de repetição for, for-of, for-in, while ---------------------------------
+
+// for-in --------------------------
+// object 
+/*
+let person = {
+
+    name: 'john',
+    age: 30,
+    weight: 88.6
+
+}
+
+for(let property in person){
+console.log(property)
+console.log(person[property])
+
+}
+*/
+// for-of ---------------------------------
+// array 
+
+/*
+let names = ['joao', 'pedro', 'paulo']
+
+for(let name of names){
+
+    console.log(name)
+}
+*/
+
+// for ---------------------------------
+/*
+for(let i = 20; i > 1;i--){
+
+    console.log(i)
+
+
+}
+*/
+
+// while -------------------------
+// geralmente usado quando nao sabemos o momento da parada
+/*
+let i = 0
+
+while(i < 10){
+
+    console.log(i)
+
+    i++
+
+    
+}
+*/

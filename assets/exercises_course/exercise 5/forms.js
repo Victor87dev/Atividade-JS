@@ -1,8 +1,15 @@
 function converterCelsius(){
 
-    let celsius = parseFloat (document.getElementById("celsius1").value)
+let Fahrenheit = parseFloat (document.getElementById("Fahrenheit").value)
 
-    document.getElementById("resultado1").innerHTML = "a temperatura em fahreinheit é: " + (5 * (celsius-32)/9)
+let conversao = operacaoFahrenheit(Fahrenheit)
+
+function operacaoFahrenheit(){
+
+    return (5*(Fahrenheit-32)/9)
+}
+
+document.getElementById("resultado1").innerHTML = `à temperatura é: ${conversao}`
 
 
 }

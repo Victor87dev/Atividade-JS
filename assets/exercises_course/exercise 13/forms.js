@@ -5,10 +5,6 @@ let number = parseInt (document.getElementById("numero").value)
 
 
 
-
-
-
-
 if(number % 3 == 0){
 
     document.getElementById("resposta").innerHTML = true
