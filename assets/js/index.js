@@ -993,3 +993,113 @@ while(i < 10){
     
 }
 */
+
+// switch - case -------------------------------------------
+
+function calcular(number1,operador,number2){
+
+    let result
+
+    switch(operador){
+
+        case '+':
+            result = number1 + number2
+            break
+        case '-':
+            result = number1 - number2
+            break 
+        case '*':
+            result = number1 * number2
+            break 
+        case '/':
+            result = number1 / number2
+            break 
+        default :
+         console.log("nao implementado")   
+         break     
+
+    }
+
+  return result 
+
+
+}
+
+console.log(calcular(7,'+',5))
+
+
+
+
+
+function calcularNumeros(number5,calc,number6){
+
+let resultado 
+
+    switch(calc){
+
+        case '1':
+         resultado = number5 + number6   
+            break
+        case '2':
+            resultado = number5 - number6 
+            break
+        case '3':
+            resultado = number5 * number6 
+            break 
+        case '4':
+            resultado = number5 / number6 
+            break      
+        default:
+            console.log('sem resultados')    
+            break 
+
+    }
+ return resultado 
+
+}
+
+console.log(calcularNumeros(5,'2',2))
+
+
+
+
+
+
+function suco(fruta1,fruta2){
+
+    return fruta1 + " " + fruta2
+
+}
+
+console.log(suco("maracuja","laranja"))
+
+
+
+
+
+
+
+function sucoBom(fruta1,fruta2){
+
+    let resultadoSuco
+
+    switch(fruta1,fruta2){
+        case 'maracuja', 'limao': 
+        resultadoSuco = "limonada perfeita"
+        break
+        case 'tangerina', 'laranja':
+           resultadoSuco = "tangerina top"
+        break 
+        default:
+            console.log('suco nao funciona')  
+        break   
+
+
+
+    }
+
+return resultadoSuco
+
+}
+
+console.log(sucoBom("maracuja","limao"))
