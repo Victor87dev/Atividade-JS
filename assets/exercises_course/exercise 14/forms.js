@@ -1,9 +1,6 @@
 function retornoInvestido(){
 
    
-
-    
-
     function calculoInvestimento(c,i,t){
 
        let m = c * (1 + i)* t
@@ -15,7 +12,7 @@ function retornoInvestido(){
 
     let capital = parseFloat (document.getElementById('montante').value)
 
-    let txJuros = 0.5/100
+    let txJuros = 0.05
     let tempo = 24
 
     let montante = calculoInvestimento(capital,txJuros,tempo)
