@@ -995,7 +995,7 @@ while(i < 10){
 */
 
 // switch - case -------------------------------------------
-
+/*
 function calcular(number1,operador,number2){
 
     let result
@@ -1027,9 +1027,9 @@ function calcular(number1,operador,number2){
 
 console.log(calcular(7,'+',5))
 
+*/
 
-
-
+/*
 
 function calcularNumeros(number5,calc,number6){
 
@@ -1061,10 +1061,10 @@ let resultado
 console.log(calcularNumeros(5,'2',2))
 
 
+*/
 
 
-
-
+/*
 function suco(fruta1,fruta2){
 
     return fruta1 + " " + fruta2
@@ -1072,13 +1072,13 @@ function suco(fruta1,fruta2){
 }
 
 console.log(suco("maracuja","laranja"))
+*/
 
 
 
 
 
-
-
+/*
 function sucoBom(fruta1,fruta2){
 
     let resultadoSuco
@@ -1103,3 +1103,4 @@ return resultadoSuco
 }
 
 console.log(sucoBom("maracuja","limao"))
+*/
