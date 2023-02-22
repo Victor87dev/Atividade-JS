@@ -960,14 +960,14 @@ console.log(person[property])
 // for-of ---------------------------------
 // array 
 
-/*
+
 let names = ['joao', 'pedro', 'paulo']
 
 for(let name of names){
 
     console.log(name)
 }
-*/
+
 
 // for ---------------------------------
 /*

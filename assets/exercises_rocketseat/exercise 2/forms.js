@@ -56,6 +56,7 @@ if(totalReceitas < totalDespesas){
 
 // forma da rocketseat -------------------------------------------------------
 
+/*
 let family = {
 
     incomes:[2200, 3200, 250.43, 360.20],
@@ -97,3 +98,4 @@ function calculateBalance(){
 }
 
 calculateBalance()
+*/
