@@ -1,3 +1,4 @@
+/*
 let earlyLifeFinn = 100
 
 let coup1finn = 10
@@ -67,10 +68,83 @@ if(finalLifeFinn > finalLifeReiGelado){
 
 }else if(finalLifeReiGelado > finalLifeFinn){
 
-   console.log(`As magias foram implacaveis, Finn lutou com todas suas forças, mas o Rei Gelado foi vitorioso, o mago conseguiu dar ${sumReiGelado} de dano, Deixando Finn com ${finalLifeFinn} de vida restante.`)
+   console.log(`As magias foram implacaveis, Finn lutou com todas suas forças, mas o Rei Gelado foi vitorioso,
+    o mago conseguiu dar ${sumReiGelado} de dano, Deixando Finn com ${finalLifeFinn} de vida restante.`)
 
 }else{
 
-console.log(`Apesar dos esforços, ninguem foi capaz de ser vitoriso, ficando com exatamente ${finalLifeFinn} de vida restante cada. Portanto terão que resolver suas intrigas em outra oportunidade`)
+console.log(`Apesar dos esforços, ninguem foi capaz de ser vitoriso, ficando com exatamente ${finalLifeFinn} 
+de vida restante cada. Portanto terão que resolver suas intrigas em outra oportunidade`)
 
 }
+*/
+
+
+let lifeFinn = 100
+let lifeReiGelado = 100
+
+
+let damage = {
+
+    finn: [10,60,15,5],
+    reiGelado: [5,30,30,15]
+
+
+}
+
+function sum(array){
+
+    let total = 0
+
+    for(let value of array){
+
+        total += value
+
+    }
+
+   return total
+
+}
+
+
+let totalDamagerFinn = sum(damage.finn)
+let totalDamagerReiGelado = sum(damage.reiGelado)
+
+function lifeFinalFinn(){
+
+   return lifeFinn - totalDamagerReiGelado
+
+}
+
+let lifeFinnRemaining = lifeFinalFinn(lifeFinn,totalDamagerReiGelado)
+
+
+function lifeFinalReiGelado(){
+
+return lifeReiGelado - totalDamagerFinn
+
+}
+
+let lifeReiGeladoRemaining = lifeFinalReiGelado(lifeReiGelado,totalDamagerFinn)
+
+
+
+if( lifeFinnRemaining > lifeReiGeladoRemaining){
+
+    console.log(`Após esquivar de todas as magias do mago, Finn venceu a luta e deu ${totalDamagerFinn} 
+    de dano, Deixando o Rei gelado com ${lifeReiGeladoRemaining} de vida restante. `)
+
+
+}else if( lifeReiGeladoRemaining > lifeFinnRemaining){
+
+   console.log(`As magias foram implacaveis, Finn lutou com todas suas forças, mas o Rei Gelado foi vitorioso,
+    o mago conseguiu dar ${totalDamagerReiGelado} de dano, Deixando Finn com ${lifeFinnRemaining} de vida restante.`)
+
+}else{
+
+console.log(`Apesar dos esforços, ninguem foi capaz de ser vitoriso, ficando com exatamente ${lifeFinnRemaining} 
+de vida restante cada. Portanto terão que resolver suas intrigas em outra oportunidade`)
+
+}
+
+
