@@ -1,3 +1,4 @@
+/*
 let musica = (prompt("Digite a música que você deseja ouvir: "))
 
 switch(musica){
@@ -54,3 +55,4 @@ if(musicas === 'amor'){
 console.log('Música não encontrada.')
 
 }
+*/
