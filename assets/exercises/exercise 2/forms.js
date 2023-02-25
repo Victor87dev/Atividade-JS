@@ -80,17 +80,25 @@ de vida restante cada. Portanto terão que resolver suas intrigas em outra oport
 */
 
 
+/*
 let lifeFinn = 100
 let lifeReiGelado = 100
 
 
 let damage = {
 
-    finn: [10,60,15,5],
-    reiGelado: [5,30,30,15]
+    finn: [],
+    reiGelado: []
 
 
 }
+
+for (let i = 0; i < 4; i++) {
+    damage.finn[i] = parseInt(prompt(`Digite o dano de ataque ${i + 1} do Finn.`))
+    damage.reiGelado[i] = parseInt(
+      prompt(`Digite o dano de ataque ${i + 1} do Rei Gelado.`)
+    )
+  }
 
 function sum(array){
 
@@ -106,45 +114,36 @@ function sum(array){
 
 }
 
-
 let totalDamagerFinn = sum(damage.finn)
 let totalDamagerReiGelado = sum(damage.reiGelado)
 
-function lifeFinalFinn(){
 
+function lifeFinalFinn(lifeFinn,totalDamagerReiGelado){
    return lifeFinn - totalDamagerReiGelado
-
 }
-
 let lifeFinnRemaining = lifeFinalFinn(lifeFinn,totalDamagerReiGelado)
 
 
-function lifeFinalReiGelado(){
-
+function lifeFinalReiGelado(lifeReiGelado,totalDamagerFinn){
 return lifeReiGelado - totalDamagerFinn
-
 }
-
 let lifeReiGeladoRemaining = lifeFinalReiGelado(lifeReiGelado,totalDamagerFinn)
 
 
 
 if( lifeFinnRemaining > lifeReiGeladoRemaining){
-
     console.log(`Após esquivar de todas as magias do mago, Finn venceu a luta e deu ${totalDamagerFinn} 
     de dano, Deixando o Rei gelado com ${lifeReiGeladoRemaining} de vida restante. `)
 
-
 }else if( lifeReiGeladoRemaining > lifeFinnRemaining){
-
-   console.log(`As magias foram implacaveis, Finn lutou com todas suas forças, mas o Rei Gelado foi vitorioso,
+ console.log(`As magias foram implacaveis, Finn lutou com todas suas forças, mas o Rei Gelado foi vitorioso,
     o mago conseguiu dar ${totalDamagerReiGelado} de dano, Deixando Finn com ${lifeFinnRemaining} de vida restante.`)
 
 }else{
-
 console.log(`Apesar dos esforços, ninguem foi capaz de ser vitoriso, ficando com exatamente ${lifeFinnRemaining} 
 de vida restante cada. Portanto terão que resolver suas intrigas em outra oportunidade`)
 
 }
 
+*/
 

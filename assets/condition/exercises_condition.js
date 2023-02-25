@@ -178,3 +178,72 @@ switch('d'){
 }
 */
 
+/*
+ let camisa = (prompt("qual a cor da camisa ? "))
+
+ switch (camisa) {
+     case "camisa azul":
+         console.log("amigo A")
+         break;
+     case "camisa vermelha" : 
+     console.log("amigo B")
+     break
+     
+     case "camisa branca":
+        console.log("amigo C")
+        break
+     default:
+         console.log("camisa nao identificada")
+         break;
+ }
+*/
+
+/*
+let fruta = 'melancia'
+
+switch (fruta) {
+    case 'maça':
+        console.log('nao vendemos essa fruta aqui')
+        break;
+    case 'kiwi':
+        console.log('estamos com escassez de kiwis')
+     case 'melancia':
+        console.log('aqui esta, sao 3 reais o quilo')
+        break      
+     default:
+         console.log("fruta nao identificada")
+         break     
+
+    
+}
+*/
+
+
+
+/*
+let tipoVeiculo = 'sedan'
+
+switch (tipoVeiculo) {
+    case 'hatch':
+        console.log('compra efetuada com sucesso')
+        break;
+    case 'sedan':
+        console.log('tem certeza que nao prefere esse modelo ?')
+        break
+     case 'caminhonete':
+        console.log('tem certeza que nao prefere esse modelo ?')
+        break  
+    case 'motocicleta':
+    console.log('tem certeza que nao prefere esse modelo ?')
+    break  
+
+     default:
+         console.log("nao trabalhamos com esse tipo de automovel aqui")
+         break     
+
+    
+}
+*/
+
+
+

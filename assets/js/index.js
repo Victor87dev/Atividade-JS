@@ -960,14 +960,14 @@ console.log(person[property])
 // for-of ---------------------------------
 // array 
 
-
+/*
 let names = ['joao', 'pedro', 'paulo']
 
 for(let name of names){
 
     console.log(name)
 }
-
+*/
 
 // for ---------------------------------
 /*
@@ -1103,4 +1103,239 @@ return resultadoSuco
 }
 
 console.log(sucoBom("maracuja","limao"))
+*/
+
+
+     /*     
+      let nome = 'joao'
+
+      let sobrenome = 'silva'
+
+      let mensagem = `ola , ${nome} ${sobrenome}!`
+
+    console.log(mensagem)
+    */
+
+    /*
+       let membro = true 
+
+       let mensagem1 = membro ? "sim" : "nao"
+
+       console.log(`ele é membro ${mensagem1}`)
+
+
+       let numero = 10
+
+       const mensagem = numero%2 ? 'impar' : 'par'
+
+       alert(mensagem)
+    */
+/*
+ let camisa = (prompt("qual a cor da camisa ? "))
+
+ switch (camisa) {
+     case "camisa azul":
+         console.log("amigo A")
+         break;
+     case "camisa vermelha" : 
+     console.log("amigo B")
+     break
+     
+     case "camisa branca":
+        console.log("amigo C")
+        break
+     default:
+         console.log("camisa nao identificada")
+         break;
+ }
+*/
+
+/*
+  let mult = (x,y) => Math.max (x,y)
+
+
+  console.log(mult(10,11))
+
+
+*/
+
+/*
+let fruta = 'melancia'
+
+switch (fruta) {
+    case 'maça':
+        console.log('nao vendemos essa fruta aqui')
+        break;
+    case 'kiwi':
+        console.log('estamos com escassez de kiwis')
+     case 'melancia':
+        console.log('aqui esta, sao 3 reais o quilo')
+        break      
+     default:
+         console.log("fruta nao identificada")
+         break     
+
+    
+}
+*/
+
+/*
+let tipoVeiculo = 'sedan'
+
+switch (tipoVeiculo) {
+    case 'hatch':
+        console.log('compra efetuada com sucesso')
+        break;
+    case 'sedan':
+        console.log('tem certeza que nao prefere esse modelo ?')
+        break
+     case 'caminhonete':
+        console.log('tem certeza que nao prefere esse modelo ?')
+        break  
+    case 'motocicleta':
+    console.log('tem certeza que nao prefere esse modelo ?')
+    break  
+
+     default:
+         console.log("nao trabalhamos com esse tipo de automovel aqui")
+         break     
+
+    
+}
+*/
+
+/*
+    let documento = true
+
+    let mensagem = documento ? true : false 
+
+    console.log(`o documento é ${mensagem}`)
+
+*/
+/*
+
+   let profissao = 'programador' 
+   let nome = 'joao'
+
+   let mensagem = profissao ? 'programador' : false
+   
+   console.log(`${nome} é ${mensagem}`)
+*/
+
+/*
+    let numero1 = 5
+    let numero2 = 10
+
+    let numeroMaior = numero1 > numero2 ?  `${numero1} é maior que ${numero2}` : `${numero2} é maior que ${numero1}` 
+
+    console.log(`o numero maior é: ${numeroMaior}`)
+
+*/
+
+
+/*
+    function nomeSobrenome(nome,sobrenome){
+ 
+        return `olá ${nome} ${sobrenome}, eu sou uma função.`
+
+    }
+
+    
+
+    console.log(nomeSobrenome('João', 'Victor'))
+
+*/
+
+/*
+    let destinatario = 'jv775833@gmail.com'
+    let assunto = 'confirmação de cadastro'
+    let nome = 'João Victor'
+    let linkDeConfirmacao = 'https://exemple.com/confirmar'
+    let corpoDoEmail = `
+    Olá ${nome} !
+    Obrigado por se cadastrar no nosso site. Para confirmar seu cadastro. por favor click 
+    no link abaixo: 
+    ${linkDeConfirmacao}
+
+    Se você não se cadastrou no nosso site, por favor ignore esse e-mail.
+
+    Atenciosamente, equipe do exemplo.com
+    `
+
+    const modeloDeEmail = {
+
+        to: destinatario,
+        subject: assunto,
+        body: corpoDoEmail
+    }
+
+    console.log(modeloDeEmail)
+
+*/
+
+/*
+let lifeFinn = 100
+let lifeReiGelado = 100
+
+
+let damage = {
+
+    finn: [],
+    reiGelado: []
+
+
+}
+
+for (let i = 0; i < 4; i++) {
+    damage.finn[i] = parseInt(prompt(`Digite o dano de ataque ${i + 1} do Finn.`))
+    damage.reiGelado[i] = parseInt(
+      prompt(`Digite o dano de ataque ${i + 1} do Rei Gelado.`)
+    )
+  }
+
+function sum(array){
+
+    let total = 0
+
+    for(let value of array){
+
+        total += value
+
+    }
+
+   return total
+
+}
+
+let totalDamagerFinn = sum(damage.finn)
+let totalDamagerReiGelado = sum(damage.reiGelado)
+
+
+function lifeFinalFinn(lifeFinn,totalDamagerReiGelado){
+   return lifeFinn - totalDamagerReiGelado
+}
+let lifeFinnRemaining = lifeFinalFinn(lifeFinn,totalDamagerReiGelado)
+
+
+function lifeFinalReiGelado(lifeReiGelado,totalDamagerFinn){
+return lifeReiGelado - totalDamagerFinn
+}
+let lifeReiGeladoRemaining = lifeFinalReiGelado(lifeReiGelado,totalDamagerFinn)
+
+
+
+if( lifeFinnRemaining > lifeReiGeladoRemaining){
+    console.log(`Após esquivar de todas as magias do mago, Finn venceu a luta e deu ${totalDamagerFinn} 
+    de dano, Deixando o Rei gelado com ${lifeReiGeladoRemaining} de vida restante. `)
+
+}else if( lifeReiGeladoRemaining > lifeFinnRemaining){
+ console.log(`As magias foram implacaveis, Finn lutou com todas suas forças, mas o Rei Gelado foi vitorioso,
+    o mago conseguiu dar ${totalDamagerReiGelado} de dano, Deixando Finn com ${lifeFinnRemaining} de vida restante.`)
+
+}else{
+console.log(`Apesar dos esforços, ninguem foi capaz de ser vitoriso, ficando com exatamente ${lifeFinnRemaining} 
+de vida restante cada. Portanto terão que resolver suas intrigas em outra oportunidade`)
+
+}
+
 */
