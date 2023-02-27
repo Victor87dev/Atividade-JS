@@ -53,16 +53,17 @@ console.log(`Tivemos um empate tecnico`)
 
 function sum(array) {
     let total = 0
-        for(let value of array) {
-            total += value
-        }
+
+    for(let value of array) {
+        total += value
+    }
+
     return total
 }
+
 function mediaDasMusicasCantor(duracaoMusicas) {
     return sum(duracaoMusicas)/2
 }
-
-
 
 let informacoesMusicas = {
     musica1:[],
