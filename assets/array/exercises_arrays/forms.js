@@ -130,7 +130,7 @@ let notas1Alunos = [10,3.5,7]
 let notas2Alunos = [8,6.4,8]
 */
 
-
+/*
 let objetoAlunos = {
     aluno1: ['joao',10,7.5],
     aluno2: ['ronaldo',4,7,8],
@@ -173,3 +173,4 @@ if(mediaAluno1 >= 7){
 }else{
     console.log('abaixo da media')
 }
+*/
