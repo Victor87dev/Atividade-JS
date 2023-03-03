@@ -174,3 +174,83 @@ if(mediaAluno1 >= 7){
     console.log('abaixo da media')
 }
 */
+
+
+/*
+let cores = ['azul', 'vermelho', 'verde']
+console.log(cores)
+cores.push('amarelo')
+console.log(cores)
+*/
+
+
+/*
+let array = [1,2,3,4]
+  
+let max = Math.max(...array)
+
+console.log(max)
+*/
+
+
+/*
+let texto = ['a','b','c']
+
+function nomes(array){
+
+  let nome1 = array.join(",")
+  let nome2 = nome1.toUpperCase()
+  let nome3 = nome2.split(",")
+  return nome3
+}
+
+console.log(nomes(texto))
+
+*/
+
+/*
+const numeros = [58,18,45]
+function maior(array){
+
+  const novo2 = Math.max(...array)
+  return novo2
+
+}
+
+console.log(maior(numeros))
+*/
+
+/*
+const arrays1 = [1,2,3,4]
+const arrays2 = [5,6]
+
+function arrays(arrays,arrays2){
+
+  const novoArray = [
+    ...arrays,
+    ...arrays2
+  ]
+   const array = novoArray.filter((valor,index) => {
+     return novoArray.indexOf(valor) === index;
+   })
+   return array
+}
+console.log(arrays(arrays1,arrays2))
+*/
+
+const numeros = [1,2,3,4,5]
+
+function mediaDosNumeros(numero){
+
+  const somaDasNotas = numero.reduce((acumulador, valor) =>{
+
+    acumulador += valor 
+    return acumulador
+  },0);
+
+  let mediaAluno = somaDasNotas / numero.length 
+  return mediaAluno.toFixed(2);
+  
+}
+
+console.log(mediaDosNumeros(numeros))
