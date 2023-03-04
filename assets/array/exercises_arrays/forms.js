@@ -192,6 +192,7 @@ let max = Math.max(...array)
 console.log(max)
 */
 
+// transformando letras e palavras minusculas em maiusculas com function 
 
 /*
 let texto = ['a','b','c']
@@ -205,29 +206,31 @@ function nomes(array){
 }
 
 console.log(nomes(texto))
-
 */
 
+// puxando o maior valor do array com function 
 /*
 const numeros = [58,18,45]
-function maior(array){
+const numeros2 = [13,14]
+function maior(numero){
 
-  const novo2 = Math.max(...array)
+  const novo2 = Math.max(...numero)
   return novo2
 
 }
 
-console.log(maior(numeros))
+console.log(maior(numeros2))
 */
 
+// juntando numeros de dois arrays diferentes com function 
 /*
 const arrays1 = [1,2,3,4]
-const arrays2 = [5,6]
+const arrays2 = [5,6,10,11,12]
 
-function arrays(arrays,arrays2){
+function arrays(arrays1,arrays2){
 
   const novoArray = [
-    ...arrays,
+    ...arrays1,
     ...arrays2
   ]
    const array = novoArray.filter((valor,index) => {
@@ -236,9 +239,13 @@ function arrays(arrays,arrays2){
    return array
 }
 console.log(arrays(arrays1,arrays2))
+
 */
 
-const numeros = [1,2,3,4,5]
+// somando numeros de um array e dando a media com function
+
+/*
+const numeros = [1,40,3,4,75]
 
 function mediaDosNumeros(numero){
 
@@ -254,3 +261,4 @@ function mediaDosNumeros(numero){
 }
 
 console.log(mediaDosNumeros(numeros))
+*/
