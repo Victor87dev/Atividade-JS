@@ -262,3 +262,82 @@ function mediaDosNumeros(numero){
 
 console.log(mediaDosNumeros(numeros))
 */
+
+// criar um array com numeros e depois retornar os
+//numeros pares desse array, usando função.
+
+/*
+let numeros = [1,2,3,4,5,6,7,8,9,10]
+
+function numerosPares(numero){
+
+  let novoArray = [
+    ...numeros
+  ] 
+  
+  let array = novoArray.filter((valor) => {
+    return novoArray.indexOf(valor) % 2 === 1 
+  })
+  return array
+
+}
+
+console.log(numerosPares(numeros))
+*/
+
+// criar um array com numeros e depois retornar os
+//numeros impar desse array, usando função.
+
+/*
+let numeros = [1,2,3,4,5,6,7,8,9,10]
+
+function numerosPares(numero){
+
+  let novoArray = [
+    ...numeros
+  ] 
+  
+  let array = novoArray.filter((valor) => {
+    return novoArray.indexOf(valor) % 2 === 0 
+  })
+  return array
+
+}
+
+console.log(numerosPares(numeros))
+*/
+
+//
+
+let pessoas = [
+  {
+    nome: 'joao',
+    idade: 10
+  },
+  {
+    nome: 'marcos',
+    idade: 19
+  }
+]
+
+
+
+// crie um array de numeros e depois o retorne com os numeros do menor para o maior.
+/*
+let numeros = [40,12,90,100,1,36]
+
+numeros.sort(function(a,b){
+
+  if(a > b) return 1
+
+  if(a < b) return -1
+
+  return 0
+})
+
+console.log(numeros)
+*/
+
+
+
+
