@@ -134,16 +134,30 @@ let pessoas = [
   
   
   
-  // crie um array de numeros e depois o retorne com os numeros do menor para o maior.
-  /*
-  let numeros = [40,12,90,100,1,36]
+// crie um array de numeros e depois o retorne com os numeros do menor para o maior.
+/*
+let numeros = [40,12,90,100,1,36]
   
-  numeros.sort(function(a,b) {
+numeros.sort(function(a,b) {
   
-    if(a > b) return 1
-    if(a < b) return -1
-    return 0
-  })
+  if(a > b) return 1
+  if(a < b) return -1
+  return 0
+})
   
-  console.log(numeros)
-  */
+console.log(numeros)
+*/
+
+// crie um array de numeros e depois o retorne com os numeros do maior para o menor.
+/*
+let numeros = [40,12,90,100,1,36]
+  
+numeros.sort(function(a,b) {
+  
+  if(a < b) return 1
+  if(a > b) return -1
+    
+})
+  
+console.log(numeros)
+*/  
