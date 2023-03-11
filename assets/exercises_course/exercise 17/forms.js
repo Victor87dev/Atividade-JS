@@ -26,7 +26,7 @@ exemplo2.addEventListener("mousemove", (event) => {
 });
 */
 
-/*
+
 const form = document.querySelector('#meu-form');
 
 form.addEventListener('submit', (event) => {
@@ -51,7 +51,7 @@ inputNome.addEventListener('blur', () => {
     console.log('o campo nome perdeu o foco!');
 
 });
-*/
+
 
 /*
 let botao1 = document.getElementById("botao1");
