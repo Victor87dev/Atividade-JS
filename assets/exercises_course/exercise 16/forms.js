@@ -120,7 +120,7 @@ console.log(numerosPares(numeros))
 */
 
 //
-
+/*
 let pessoas = [
     {
       nome: 'joao',
@@ -131,7 +131,7 @@ let pessoas = [
       idade: 19
     }
   ]
-  
+*/
   
   
 // crie um array de numeros e depois o retorne com os numeros do menor para o maior.
@@ -161,4 +161,17 @@ numeros.sort(function(a,b) {
   
 console.log(numeros)
 */  
+
+
+
+let numero = parseFloat (prompt("digite um numero:"))
+let numero2 = parseFloat (prompt("digite um numero:"))
+
+function somar(){
+  return numero+numero2
+}
+
+console.log(somar(numero,numero2))
+
+
 
