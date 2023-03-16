@@ -294,7 +294,7 @@ let numeros = [1,2,3,4,5,6,7,8,9,10]
 function numerosPares(numero){
 
   let novoArray = [
-    ...numeros
+    ...numero
   ] 
   
   let array = novoArray.filter((valor) => {
@@ -308,7 +308,7 @@ console.log(numerosPares(numeros))
 */
 
 //
-
+/*
 let pessoas = [
   {
     nome: 'joao',
@@ -319,7 +319,7 @@ let pessoas = [
     idade: 19
   }
 ]
-
+*/
 
 
 // crie um array de numeros e depois o retorne com os numeros do menor para o maior.
@@ -337,7 +337,4 @@ numeros.sort(function(a,b){
 
 console.log(numeros)
 */
-
-
-
 
