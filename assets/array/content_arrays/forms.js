@@ -35,7 +35,7 @@ data[lowesSallary].sallary += 200;
 console.log(data);
 */
 
-// 4- inludes (verificar se meu array contem um item especifico)
+// 4- includes (verificar se meu array contem um item especifico)
 /*
 const numbers = [1,2,6,4];
 
@@ -45,11 +45,11 @@ console.log(hasFour)
 */
 
 // 5- map (quando queremos fazer uma modificação em todos nossos elementos do array)
-
+/*
 data.map((user) => (user.newsLetter = false));
 
 console.log(data);
-
+*/
 
 // 6- filter (vamos poder realizar um filtro baseado em uma condição)
 /*
@@ -90,13 +90,14 @@ somaOne = data.some((user) => user.newsLetter);
 console.log(somaOne)
 */
 // teste 
-
+/*
 data[1].carro = 'fiat' 
 
 console.log(data)
-
+*/
 // 10- every (verificando se todos os elementos do array tem o que voce passou como condição)
 
+/*
 const everyOne = data.every((user) => user.name);
 
 console.log(everyOne)
@@ -106,3 +107,39 @@ const everySalario = data.every((user) => {
 });
 
 console.log(everySalario)
+*/
+/*
+let arrays = [10,-7,5,2];
+
+function somarPositivo(arr){
+  let soma = 0;
+
+  for(let i = 0;i < arr.length; i++){
+    if(arr[i] >= 0){
+       soma = soma + arr[i]
+    }
+  }
+  return soma 
+}
+
+console.log(somarPositivo(arrays))
+*/
+ 
+
+/*
+let nome = ['j o a'];
+
+function stringUnidas(x){
+  
+  let novaString = ''
+  for(let i = 0;i < x.length;i++){
+    if (x[i] !== ' ') {
+     novaString = novaString + x[i]
+    }
+    
+  }
+  return novaString
+}
+
+console.log(stringUnidas(nome))
+*/
