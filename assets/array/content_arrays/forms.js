@@ -126,8 +126,8 @@ console.log(somarPositivo(arrays))
 */
  
 
-/*
-let nome = ['j o a'];
+
+let nome = 'j o a       ksdfsks     dhfubvs';
 
 function stringUnidas(x){
   
@@ -142,4 +142,3 @@ function stringUnidas(x){
 }
 
 console.log(stringUnidas(nome))
-*/
