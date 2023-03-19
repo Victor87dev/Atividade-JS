@@ -247,7 +247,7 @@ console.log(arrays(arrays1,arrays2))
 /*
 const numeros = [1,40,3,4,75]
 
-function mediaDosNumeros(numero){
+function mediaDosNumeros(numero) {
 
   const somaDasNotas = numero.reduce((acumulador, valor) =>{
 
@@ -269,7 +269,7 @@ console.log(mediaDosNumeros(numeros))
 /*
 let numeros = [1,2,3,4,5,6,7,8,9,10]
 
-function numerosPares(numero){
+function numerosPares(numero) {
 
   let novoArray = [
     ...numeros
@@ -291,7 +291,7 @@ console.log(numerosPares(numeros))
 /*
 let numeros = [1,2,3,4,5,6,7,8,9,10]
 
-function numerosPares(numero){
+function numerosPares(numero) {
 
   let novoArray = [
     ...numero
@@ -326,7 +326,7 @@ let pessoas = [
 /*
 let numeros = [40,12,90,100,1,36]
 
-numeros.sort(function(a,b){
+numeros.sort(function(a,b) {
 
   if(a > b) return 1
 
@@ -338,3 +338,38 @@ numeros.sort(function(a,b){
 console.log(numeros)
 */
 
+// somar apenas os numeros positivos do array
+
+/*
+let arrays = [10,-7,5,2];
+
+function somarPositivo(arr) {
+  let soma = 0;
+
+  for(let i = 0;i < arr.length; i++) {
+    if(arr[i] >= 0){
+       soma = soma + arr[i]
+    }
+  }
+  return soma 
+}
+
+console.log(somarPositivo(arrays))
+*/
+
+// retornar a string sem espaços 
+
+let nome = 'j o a       ksdfsks     dhfubvs';
+
+function stringUnidas(x) {
+  
+  let novaString = ''
+  for(let i = 0;i < x.length;i++){
+    if (x[i] !== ' ') {
+     novaString = novaString + x[i]
+    } 
+  }
+  return novaString
+}
+
+console.log(stringUnidas(nome))
