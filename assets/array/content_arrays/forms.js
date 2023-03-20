@@ -108,37 +108,8 @@ const everySalario = data.every((user) => {
 
 console.log(everySalario)
 */
-/*
-let arrays = [10,-7,5,2];
 
-function somarPositivo(arr){
-  let soma = 0;
-
-  for(let i = 0;i < arr.length; i++){
-    if(arr[i] >= 0){
-       soma = soma + arr[i]
-    }
-  }
-  return soma 
-}
-
-console.log(somarPositivo(arrays))
-*/
  
 
 
-let nome = 'j o a       ksdfsks     dhfubvs';
 
-function stringUnidas(x){
-  
-  let novaString = ''
-  for(let i = 0;i < x.length;i++){
-    if (x[i] !== ' ') {
-     novaString = novaString + x[i]
-    }
-    
-  }
-  return novaString
-}
-
-console.log(stringUnidas(nome))
