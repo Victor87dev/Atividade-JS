@@ -359,7 +359,8 @@ console.log(somarPositivo(arrays))
 
 // retornar a string sem espaços 
 
-let nome = 'j o a       ksdfsks     dhfubvs';
+/*
+let nome = 'joao victor sampa';
 
 function stringUnidas(x) {
   
@@ -373,3 +374,126 @@ function stringUnidas(x) {
 }
 
 console.log(stringUnidas(nome))
+*/
+
+//elevar os numeros do array ao quadrado e depois somar
+
+/*
+let array = [1,2,2]
+
+function somaDosArrays(numbers) {
+  let soma = 0;
+  
+
+  for(let i = 0;i < numbers.length;i++) {
+    soma = soma + numbers[i] * numbers[i]
+    
+  }
+  return soma
+}
+
+console.log(somaDosArrays(array))
+*/
+
+//encontrar a palavra 'needle' e retornar o numero do seu index 
+/*
+let array = ['max',1,10,45,'fort','needle',15,78,1];
+
+function encontrarArray(arr) {
+
+  for(let i = 0;i < arr.length; i++) {
+   if(arr[i] === 'needle') {
+    return 'found the needle at position ' + i
+   }
+  }
+ 
+}
+
+console.log(encontrarArray(array))
+*/
+
+/*
+let artistas = new Array('angelina','will smith','pedro')
+
+console.log(artistas)
+*/
+
+// usando loops 
+
+/*
+let frutas = ['mamao','banana','maça','melancia']
+
+let contador = 0;
+
+while(contador < frutas.length){
+  console.log(frutas[contador]);
+  contador++;
+}
+
+
+for(let max = 0;max < frutas.length; max++) {
+  console.log(frutas[max])
+}
+
+*/
+
+// verificando quais os numeros são divisores por 2 e retornando como array
+// exemplo 1  
+
+/*
+let numeros = [1,2,3,4,5,6]
+let divisor = 2
+
+
+function numerosDivisor(arr1,arr2) {
+  let arr3 = [];
+
+  for(let i = 0;i < arr1.length;i++) {
+   if((arr1[i] % arr2) == 0) {
+    arr3.push(arr1[i])
+   }
+  }
+  return arr3
+}
+
+console.log(numerosDivisor(numeros,divisor))
+*/
+
+//exemplo 2 
+
+/*
+
+function numerosDivisor(arr1,arr2) {
+  let arr3 = [];
+
+  for(let i = 0;i < arr1.length;i++) {
+   if((arr1[i] % arr2) == 0) {
+    arr3.push(arr1[i])
+   }
+  }
+  return arr3
+}
+
+console.log(numerosDivisor([1,2,3,4,5,6], 2))
+*/
+
+// exemplo 3 
+/*
+let numeros = [1,2,3,4,5,6]
+let divisor = 2
+
+
+function numerosDivisor() {
+  let arr3 = [];
+
+  for(let i = 0;i < numeros.length;i++) {
+   if((numeros[i] % divisor) == 0) {
+    arr3.push(numeros[i])
+   }
+  }
+  return arr3
+}
+
+console.log(numerosDivisor())
+*/
+
