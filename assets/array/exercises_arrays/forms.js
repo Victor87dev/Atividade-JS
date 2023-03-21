@@ -497,3 +497,21 @@ function numerosDivisor() {
 console.log(numerosDivisor())
 */
 
+// somar os numeros do array, se o array estiver vazio retornar '0'
+
+let array = [1,5.2,4,0,-1];
+
+function sum(number) {
+  let somar = 0;
+
+  if(number.length === 0) {
+    return 0
+  } else {
+    for(let i = 0;i < number.length;i++) {
+      somar = somar + number[i]
+    }
+  }
+  return somar 
+}
+
+console.log(sum(array))
