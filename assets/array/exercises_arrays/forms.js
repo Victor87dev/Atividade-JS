@@ -498,7 +498,7 @@ console.log(numerosDivisor())
 */
 
 // somar os numeros do array, se o array estiver vazio retornar '0'
-
+/*
 let array = [1,5.2,4,0,-1];
 
 function sum(number) {
@@ -515,3 +515,54 @@ function sum(number) {
 }
 
 console.log(sum(array))
+*/
+
+// elevar ao quadrado os elementos do array1 e elevar ao cubo os elementos do array2
+// e depois somalos, se array1 for maior retorne 'true' se nao 'false'
+/*
+let array1 = [4,5,6]
+let array2 = [1,2,3]
+
+function somaDosArrays(arr1,arr2) {
+  let sum1 = 0;
+  let sum2 = 0;
+
+  for(let i = 0; i < arr1.length;i++) {
+    sum1 = sum1 + (arr1[i] * 2)
+  }
+
+  for(let cont = 0; cont < arr2.length;cont++) {
+    sum2 = sum2 + (arr2[cont] * 3)
+  }
+
+  if(sum1 > sum2) {
+    return 'o valor do array1 é ' + sum1 + ' e o array2 é ' + sum2 + ' então o resultado final é ' + true 
+  } else {
+    return 'o valor do array1 é ' + sum1 + ' e o array2 é ' + sum2 + ' então o resultado final é ' + false
+  }
+
+}
+
+console.log(somaDosArrays(array1,array2))
+*/
+
+// imprimir os elementos do array usando 'while' 
+/*
+let redesSociais = ['facebook', 'whatsApp', 'orkut', 'snapchat']
+
+let i = 0;
+while (i < redesSociais.length) {
+  console.log(redesSociais[i])
+  i++
+}
+*/
+
+// imprimir de 0 a 20 usando do...while 
+/*
+let i = 0;
+do{
+  console.log(i)
+  i++
+}while(i <= 20)
+*/
+
