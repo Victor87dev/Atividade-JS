@@ -638,4 +638,101 @@ return arraySaida
 console.log(removerArray2(array))
 */
 
+// somar os numeros e depois mostrar a media 
+/*
+let numeros = [1,2,1,10];
 
+var encontrarMedia = function(numbers) {
+  let soma = 0;
+  
+  for(let i = 0;i < numbers.length;i++) {
+    soma = soma + numbers[i] / numbers.length 
+  }
+  return soma
+}
+
+console.log(encontrarMedia(numeros))
+*/
+
+// imprimir o arrayMultidimensional
+/*
+let arrayMultidimensional = [
+  ['trabalho',7],
+  ['video game', 5],
+  ['academia', 2],
+  ['comida', 1]
+]
+
+for(let i = 0;i < arrayMultidimensional.length;i++) {
+  console.log(arrayMultidimensional[i])
+}
+*/
+/*
+let arrayMultidimensional = [
+  ['trabalho',7],
+  ['video game', 5],
+  ['academia', 2],
+  ['comida', 1]
+]
+
+//video game
+console.log(arrayMultidimensional[1][0])
+// comida 
+console.log(arrayMultidimensional[3][0])
+// 7 
+console.log(arrayMultidimensional[0][1])
+*/
+
+// numeros pares
+/*
+let arrayMultidimensional = [
+  ['trabalho',7],
+  ['video game', 6],
+  ['academia', 2],
+  ['comida', 1]
+]
+
+for(let i = 0;i < arrayMultidimensional.length;i++) {
+  if(!(arrayMultidimensional[i][1] % 2)) {
+    console.log(arrayMultidimensional[i]);
+  }
+
+}
+*/
+
+// exemplo 
+// modificando arrays
+/* 
+jeff bezos - amazon 
+elon musk - tesla 
+mark zuckerberg - facebook 
+steve jobs - apple 
+sergei brin - google
+*/
+
+/*
+let fundadores = [
+  ['jeff','adidas'],
+  ['musk','nike'],
+  ['mark','apple'],
+  ['tim','tiktok'],
+  ['brin','yakoot']
+]
+
+fundadores[0][0] = 'Jeff Bezos'
+fundadores[0][1] = 'Amazon'
+
+fundadores[1][0] = 'Elon Musk'
+fundadores[1][1] = 'Tesla'
+
+fundadores[2][0] = 'Mark Zuckerberg'
+fundadores[2][1] = 'Facebook'
+
+fundadores[3][0] = 'Steve jobs'
+fundadores[3][1] = 'Apple'
+
+fundadores[4][0] = 'Sergei Brin'
+fundadores[4][1] = 'Google'
+
+console.log(fundadores)
+*/
