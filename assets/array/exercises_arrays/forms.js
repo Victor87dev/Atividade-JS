@@ -566,3 +566,76 @@ do{
 }while(i <= 20)
 */
 
+// verificar se o numero "valor" existe no meu array
+/* 
+let array = [100,101,45,66];
+let valor = 100
+
+function verificarNumero(arr,value) {
+  for(let i = 0;i < arr.length;i++) {
+    if(arr[i] === value){
+     return true
+    } 
+  }
+  return false 
+}
+
+console.log(verificarNumero(array,valor))
+*/
+
+// verificar as cores do arco iris, se estiverem corretas retornar true.
+/*
+let arcoIris = ['red','orange','yellow','green','blue','indigo','violet']
+
+function verificarCores(cor) {
+  if (cor.length !== 7) {
+    return false
+  } else if (cor[0] === 'red'){
+    if(cor[1] === 'orange') {
+      if(cor[2] === 'yellow'){
+        if(cor[3] === 'green'){
+          if(cor[4] === 'blue'){
+            if(cor[5] === 'indigo'){
+              if(cor[6] === 'violet') {
+                return true
+              }
+            }else{
+              return false
+            }
+          }else{
+            return false
+          }
+        }else{
+          return false
+        }
+      }else{
+        return false
+      }
+    }else{
+      return false
+    }
+  }else {
+    return false
+  }
+}
+
+console.log(verificarCores(arcoIris))
+*/
+
+//remover sempre o segundo elemento do array 
+/*
+let array = ['goodbye', 'green', 3, 'yellow', 4,5]
+
+function removerArray2(arr) {
+  let arraySaida = []
+
+  for(let i = 0;i < arr.length;i += 2){
+    arraySaida.push(arr[i])
+  }
+return arraySaida
+}
+
+console.log(removerArray2(array))
+*/
+
+
