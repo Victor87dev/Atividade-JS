@@ -528,11 +528,11 @@ function somaDosArrays(arr1,arr2) {
   let sum2 = 0;
 
   for(let i = 0; i < arr1.length;i++) {
-    sum1 = sum1 + (arr1[i] * 2)
+    sum1 = sum1 + (arr1[i] * arr1[i])
   }
 
   for(let cont = 0; cont < arr2.length;cont++) {
-    sum2 = sum2 + (arr2[cont] * 3)
+    sum2 = sum2 + (arr2[cont] * arr2[cont] * arr2[cont])
   }
 
   if(sum1 > sum2) {
