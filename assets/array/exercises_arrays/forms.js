@@ -736,3 +736,87 @@ fundadores[4][1] = 'Google'
 
 console.log(fundadores)
 */
+
+// object com array 
+/*
+let menu = [
+  {
+    title:'appetizers',
+    items: ['soup','salad']
+  },
+  {
+    title:'entrees',
+    items:['burger', 'pizza', 'sanduiche']
+  },
+  {
+    title:'drinks',
+    items:['soda','water','beer']
+  },
+  {
+    title:'dessert',
+    items:['nutella','morango']
+  }
+]
+
+let sobremesa = false;
+
+for(let i = 0;i < menu.length;i++) {
+  if(menu[i].title === 'dessert') {
+    sobremesa = true
+  }else { 
+    sobremesa = false 
+}
+}
+
+if(sobremesa == true) {
+  console.log('hmmm,que delicia, temos sobremesa')
+  console.log('essas são nossas sobremesas:')
+  console.log(menu[3].items)
+  
+}else {
+  console.log('infelizmente nao temos sobremesa, mas temos essas opcões:')
+  for(let i = 0;i < menu.length;i++) {
+    console.log(menu[i].title)
+  }
+}
+*/
+
+// somando valores de horas, minutos e segundos e convertendo em miliSegundos
+/*
+function tempo(h,m,s) {
+ let sMiliSegundos = s * 1000
+ let mMilisegundos = (m * 60) * 1000
+ let hMilisegundos = (h * 3600) * 1000
+ 
+ let total = hMilisegundos + mMilisegundos + sMiliSegundos
+ return total
+}
+
+console.log(tempo(1,1,1))
+*/
+
+// fazendo uma nova string de tras pra frente e verificando se tem o mesmo significado 
+/*
+function isPalindrome(x) {
+
+if(x === '') {
+ return true
+}else {
+
+let newString = '';
+  x = x.toUpperCase()
+  for(let i = (x.length - 1); i >= 0;i--) {
+  newString = newString + x[i]
+}
+if(newString == x) {  
+  return true
+}else {
+  return false
+}
+} 
+
+}
+
+console.log(isPalindrome('tenet'))
+*/
+
