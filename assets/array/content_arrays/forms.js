@@ -109,6 +109,72 @@ const everySalario = data.every((user) => {
 console.log(everySalario)
 */
 
+// METODOS JAVASCRIPT -----------------------------------------
+// split (transforma uma string em array)
+// join (transforma um array em string)
+/*
+let frase = 'manipulando strings com javascript'
+
+let arrayPalavra = frase.split(' ');
+
+console.log(arrayPalavra)
+
+
+let novaPalavra = arrayPalavra.join(' ');
+
+console.log(novaPalavra)
+*/
+
+// splice (remove e adiciona elementos do array)
+/*
+let control = ['carro', 'moto', 'marinha','maxim'];
+
+let removed = control.splice(2,0,'strong');
+
+console.log(control)
+
+removed = control.splice(2,2,'joao','victor')
+
+console.log(control)
+console.log(removed)
+
+removed = control.splice(1,Number.MAX_VALUE)
+
+console.log(control)
+console.log(removed)
+*/
+
+// slice (fatiando um array e pegando pelo indice)
+/*
+let nomeCompleto = ['João','Victor','Samapaio','Tenório'];
+
+let fatiado = nomeCompleto.slice(3,4)
+
+console.log(fatiado)
+*/
+
+// slice (fatiando uma string, so corta em direção a direita)
+/*
+let nome = 'armario'
+
+console.log(nome.slice(-3))
+console.log(nome.slice(2))
+console.log(nome.slice(1,4))
+console.log(nome.slice(2,7))
+console.log(nome.slice(0,4))
+*/
+// substring (corta pra direita e pra esquerda)
+/*
+let nome = 'mozilla';
+
+console.log(nome.substring(4,7))
+console.log(nome.substring(7,4))
+*/
+
+
+
+
+
  
 
 

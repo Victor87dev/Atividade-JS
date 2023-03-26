@@ -337,7 +337,15 @@ numeros.sort(function(a,b) {
 
 console.log(numeros)
 */
+//-------test------------
+/*
+var numeros = [1,100,64,20,74,70];
+numeros.sort(function(a, b){
+  return b - a;
+});
 
+console.log(numeros)
+*/
 // somar apenas os numeros positivos do array
 
 /*
@@ -809,14 +817,40 @@ let newString = '';
   newString = newString + x[i]
 }
 if(newString == x) {  
-  return true
+  return newString + ' ' + true 
 }else {
-  return false
+  return newString + ' ' + false
 }
 } 
 
 }
 
-console.log(isPalindrome('tenet'))
+console.log(isPalindrome(''))
 */
+
+/*
+function nomeTras(palavra) {
+  if(palavra == '') {
+    true
+  }else {
+    let newString = ''
+    palavra = palavra.toUpperCase()
+
+    for(let cont = palavra.length - 1;cont >= 0;cont--) {
+      newString = newString + palavra[cont]
+    }
+
+    if(newString == palavra) {
+      return newString + ' ' + true
+    }else {
+      return newString + ' ' + false 
+    }
+  } 
+}
+
+console.log(nomeTras('dad'))
+*/
+
+
+
 
