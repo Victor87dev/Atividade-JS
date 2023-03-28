@@ -171,4 +171,32 @@ console.log(nome.substring(4,7))
 console.log(nome.substring(7,4))
 */
 
+// indexOf (procura o indice de onde começa um caractere ou palavra especifica)
+/*
+let nome = 'meu nome é joao'
+
+console.log(nome.indexOf('nome'))// 4
+console.log(nome.indexOf(''))// 0
+console.log(nome.indexOf('é',2))//9
+console.log(nome.indexOf('j',30))//-1 (o numero passado é maior do que a string)
+*/
+
+// contando quantos 'x' existem 
+let frase = 'serx ou nao serx, eisx a questaox'
+let cont = 0;
+let pos = frase.indexOf('x');
+
+while(pos != -1) {
+  cont++
+  pos = frase.indexOf('x', pos + 1)
+}
+
+console.log(cont)
+
+
+
+
+
+
+
 
