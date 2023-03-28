@@ -1,5 +1,5 @@
 // 10 metodos de array 
-
+/*
 const data = [
     {name: "matheus", age:31, sallary:2000, driverLicense:true},
     {name: "joão", age:18, sallary:1500, driverLicense:false},
@@ -7,7 +7,7 @@ const data = [
     {name: "pedro", age:50, sallary:7200, driverLicense:true},
     {name: "erica", age:16, sallary:0, driverLicense:false}
 ];
-
+*/
 // 1- reverse (quando voce deseja inverter a ordens dos elementos do array)
 /*
 const reverseData = data.reverse();
@@ -170,12 +170,5 @@ let nome = 'mozilla';
 console.log(nome.substring(4,7))
 console.log(nome.substring(7,4))
 */
-
-
-
-
-
- 
-
 
 

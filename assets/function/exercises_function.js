@@ -265,5 +265,63 @@ function todasRespostas(){
     let v2 = parseFloat (document.getElementById("v2").value)
     document.getElementById("Resultados").innerHTML = "resposta da soma: " + (v1+v2) + " resposta subtração: " + (v1-v2) + " resposta da multiplicação: " + (v1*v2) + " resposta da divisão: " + (v1/v2)
 }
-
 */
+
+/*
+function salarioSemDescontoF(valor,dias) {
+  return valor * dias
+}
+function valorDesconto(salario,desconto) {
+  return salario * desconto
+}
+function salarioResultadoFgts(salario,desconto) {
+  return salario - desconto 
+}
+function resultadoFinal(salario,final) {
+  return salario - final
+}
+
+let valorDia = parseFloat(prompt('Digite quanto seu funcionario ganhará por dia:'));
+let dias = parseInt(prompt('Quantos dias seu funcionario irá trabalhar ?'));
+let fgts = 0.09;
+let comida = 0.02;
+
+let salarioSemDesconto = salarioSemDescontoF(valorDia,dias)
+let valorDescontoFgts = valorDesconto(salarioSemDesconto,fgts).toFixed(2)
+let valorDescontoComida = valorDesconto(salarioSemDesconto,comida).toFixed(2)
+let resultadoMenosFgts = salarioResultadoFgts(salarioSemDesconto,valorDescontoFgts).toFixed(2)
+let salarioFinal = resultadoFinal(resultadoMenosFgts,valorDescontoComida)
+
+console.log(`o salario do funcionario sem descontos é: ${salarioSemDesconto}`)
+console.log(`valor desconto do fgts: ${valorDescontoFgts}`)
+console.log(`valor desconto da comida: ${valorDescontoComida}`)
+console.log(`salario final: ${salarioFinal}`)
+*/
+
+
+function salarioSemDescontoF(valor,dias) {
+  return valor * dias
+}
+function valorDesconto(salario,desconto) {
+  return salario * desconto
+}
+function resultadoFinal(salario,final,final2) {
+  let result = salario - final
+  let finalS = result - final2
+  return finalS
+}
+  
+let valorDia = parseFloat(prompt('Digite quanto seu funcionario ganhará por dia:'));
+let dias = parseInt(prompt('Quantos dias seu funcionario irá trabalhar ?'));
+let fgts = 0.09;
+let comida = 0.02;
+  
+let salarioSemDesconto = salarioSemDescontoF(valorDia,dias)
+let valorDescontoFgts = valorDesconto(salarioSemDesconto,fgts).toFixed(2)
+let valorDescontoComida = valorDesconto(salarioSemDesconto,comida).toFixed(2)
+let salarioFinal = resultadoFinal(salarioSemDesconto,valorDescontoFgts,valorDescontoComida).toFixed(2)
+  
+console.log(`o salario do funcionario sem descontos é: ${salarioSemDesconto}`)
+console.log(`valor desconto do fgts: ${valorDescontoFgts}`)
+console.log(`valor desconto da comida: ${valorDescontoComida}`)
+console.log(`salario final: ${salarioFinal}`)
