@@ -140,8 +140,6 @@ function Person(name,idade){
     this.walk = function (){
         return this.name + ' de ' + this.idade + ' esta andando'
     }
-
-    
 }
 
 const mayk = new Person('mayk', 20)
@@ -173,10 +171,8 @@ let joao = function (jogo1,jogo2){
 
 }
 
-
 console.log(joao(10,15))
 */
-
 
 
 /*
@@ -184,20 +180,41 @@ let io = 48
 let oi = 2
 let lucas = gratifi (io,oi)
 
-
-
 function gratifi (){
 
     return 'a soma dos numeros:' + (io / oi)
 
 }
 
-
-
-
-
 console.log(lucas)
 */
+
+// 
+
+/*
+let jogador1 = {nome:'bruno', idade:12, magia:400,}
+let jogador2 = {nome:'joao', idade:14, magia:500, skin: 123}
+let jogador3 = {...jogador1,...jogador2}
+
+console.log(jogador1)
+console.log(jogador3)
+*/
+
+// function anonima 
+
+// const f = function(v1,v2) {
+//     return v1 + v2 
+// }
+// console.log(f(5,5))
+
+// function construtora 
+/*
+const f = new Function('v1,v2','return v1 + v2')
+
+console.log(f(5,6))
+*/
+
+
 
 
 

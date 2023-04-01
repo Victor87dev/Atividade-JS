@@ -851,6 +851,24 @@ function nomeTras(palavra) {
 console.log(nomeTras('dad'))
 */
 
+let numeros = [10,75,4,6,33]
 
+function multi2(b) {
+  
+  let array2 = b.map((el)=> {
+    return el*2
+  })
+  return array2
+}
+
+console.log(multi2(numeros))
+
+/*
+let frase = 'manipulando strings com javascript'
+
+let arrayPalavra = frase.split(' ');
+
+console.log(arrayPalavra)
+*/
 
 

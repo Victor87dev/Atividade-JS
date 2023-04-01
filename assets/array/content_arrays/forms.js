@@ -182,6 +182,7 @@ console.log(nome.indexOf('j',30))//-1 (o numero passado é maior do que a string
 */
 
 // contando quantos 'x' existem 
+/*
 let frase = 'serx ou nao serx, eisx a questaox'
 let cont = 0;
 let pos = frase.indexOf('x');
@@ -192,11 +193,35 @@ while(pos != -1) {
 }
 
 console.log(cont)
+*/
 
+// lastIndexOf (verifica o indice do ultimo acontecimento)
+/*
+let nome = 'bruno bruno'
 
+console.log(nome.lastIndexOf('o'))
+*/
 
+// includes (verifica se existe um caractere ou palavra na string e retorna true ou false)
+/*
+let nome = 'sport ganhou amanha'
 
+console.log(nome.includes('sport', 5))
+*/
 
+/*
+const cursos = ['html', 'css', 'javascript', 'php', 'react']
+cursos.map((el,i) => {
+  console.log('cursos:' + el + ' - posicao do curso:' + i)
+})
+*/
 
+let array = [1,2,5,4]
+
+let dobro = array.map((el,i)=>{
+  return el*2
+})
+
+console.log(dobro)
 
 
