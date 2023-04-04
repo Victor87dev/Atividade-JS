@@ -213,7 +213,128 @@ const f = new Function('v1,v2','return v1 + v2')
 
 console.log(f(5,6))
 */
+/*
+const novoArray = (val) => {
+  let res = 0;
 
+  for(v of val) {
+   res += v
+  }
+  return res
+}
+
+const array = (...valores) => {
+  return novoArray(valores)
+}
+
+console.log(array(15,5,10))
+valor = [10,1]
+console.log(array(...valor))
+*/
+
+/*
+const somando = (...array) => {
+
+  const soma = (arr) => {
+     const somarei = (ar) => {
+      let res = 0;
+
+      for (v of ar) {
+        res += v
+     }
+     return res
+  }
+  return somarei(arr)
+}
+return soma(array)
+}
+
+valor = [10,45,6,9,78,400]
+console.log(somando(...valor))
+*/
+
+/*
+const array = [10,12];
+
+const somar = array.reduce((total,number) => {
+  total += number
+  return total
+})
+
+console.log(somar)
+*/
+
+/*
+const studenst = (...array) => {
+ 
+    const result = (valor) => {
+        let somar = 0;
+
+        for (v of valor) {
+          somar += v
+        }
+        return somar
+    }
+    return result(array)
+}
+
+console.log(studenst(10,10))
+*/
+
+/*
+function principal(valor1,valor2) {
+
+  function calculo(v1,v2){
+    return v1+v2
+  }
+
+  return calculo(valor1,valor2)
+}
+
+console.log(principal(10,15))
+*/
+
+/*
+const numero1 = 1;
+const numero2 = 3;
+
+const somares = () => {
+  const calculo = () => {
+    return numero1+numero2
+  }
+  return calculo()
+}
+
+console.log(somares())
+*/
+
+/*
+const mediaMusica = ((musica) => {
+  let somatorio = 0;
+
+  for(let i = 0;i < musica.length;i++){
+    somatorio += musica[i]
+  }
+  return somatorio/musica.length
+}) 
+
+let musicas = [10,20,5];
+
+console.log(mediaMusica(musicas).toFixed(2))
+*/
+
+// Function Geradora
+
+function* perguntas() {
+  const nome = yield 'Qual seu nome ?'
+  const esporte= yield 'Qual o seu esporte favorito ?'
+  return "Seu nome é " + nome + ' , seu esporte favorito é ' + esporte
+}
+
+const itp = perguntas()
+console.log(itp.next().value)
+console.log(itp.next('João').value)
+console.log(itp.next('Futebol').value)
 
 
 

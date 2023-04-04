@@ -162,7 +162,7 @@ numeros.sort(function(a,b) {
 console.log(numeros)
 */  
 
-
+/*
 
 let numero = parseFloat (prompt("digite um numero:"))
 let numero2 = parseFloat (prompt("digite um numero:"))
@@ -172,6 +172,7 @@ function somar(){
 }
 
 console.log(somar(numero,numero2))
+*/
 
 
 
