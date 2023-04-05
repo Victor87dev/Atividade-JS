@@ -324,7 +324,7 @@ console.log(mediaMusica(musicas).toFixed(2))
 */
 
 // Function Geradora
-
+/*
 function* perguntas() {
   const nome = yield 'Qual seu nome ?'
   const esporte= yield 'Qual o seu esporte favorito ?'
@@ -335,6 +335,26 @@ const itp = perguntas()
 console.log(itp.next().value)
 console.log(itp.next('João').value)
 console.log(itp.next('Futebol').value)
+*/
+
+// usando 'this'
+
+function aluno(nome,nota) {
+  this.nome = nome
+  this.nota = nota 
+
+  this.dados_arrow = function() {
+    setTimeout(()=>{
+      console.log(this.nome)
+      console.log(this.nota)
+    },2000)
+  }
+}
+
+const al1 = new aluno("João",10)
+al1.dados_arrow()
+
+
 
 
 
