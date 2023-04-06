@@ -228,8 +228,8 @@ let dobro = array.map((el,i)=>{
 console.log(dobro)
 */
 
-// filter
-
+// filter (filtra um novo array de acordo com o codigo definido)
+/*
 const idades = [10,14,40,20,25]
 
 const maior = idades.filter((user) => {
@@ -239,7 +239,66 @@ const maior = idades.filter((user) => {
 })
 
 console.log(maior)
+*/
 
+// find (retorna o primeiro elemento que satifaz o codigo definido)
+/*
+let a = [10,20,30]
+
+const abra = a.find((ele) => {
+   if(ele > 15) {
+     return ele
+   }
+})
+
+console.log(abra)
+*/
+
+// every (verifica se todos os elementos do array passam no teste que foi definido pela funcion
+// e retorna um valor booleano)
+/*
+let b = [10,25,26,47]
+
+const menores = b.every((user) => {
+  if(user < 40){
+    return user
+  }
+})
+
+console.log(menores)
+
+
+const isBelowThreshold = (currentValue) => currentValue < 40;
+
+const array1 = [1, 30, 39, 29, 10, 13];
+
+console.log(array1.every(isBelowThreshold));
+*/
+
+
+let arrays = [20,11,20,40]
+
+const verificar = arrays.every((elemento,i) => {
+  if(elemento >= 18) {
+    console.log("ok")
+  } else {
+    console.log("array incorreto")
+  }
+ 
+}) 
+
+
+const somar = ((v1,v2) => {
+  let a = v1+v2 
+  if(a > 30) {
+    console.log("maior " + a)
+  } else { 
+    console.log("menor " + a) 
+  }
+  
+})
+
+console.log(somar(1,20))
 
 
 
