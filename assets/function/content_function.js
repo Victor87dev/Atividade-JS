@@ -338,7 +338,7 @@ console.log(itp.next('Futebol').value)
 */
 
 // usando 'this'
-
+/*
 function aluno(nome,nota) {
   this.nome = nome
   this.nota = nota 
@@ -353,14 +353,4 @@ function aluno(nome,nota) {
 
 const al1 = new aluno("João",10)
 al1.dados_arrow()
-
-
-
-
-
-
-
-
-
-
-
+*/

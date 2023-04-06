@@ -209,6 +209,8 @@ let nome = 'sport ganhou amanha'
 console.log(nome.includes('sport', 5))
 */
 
+// map ---------------
+
 /*
 const cursos = ['html', 'css', 'javascript', 'php', 'react']
 cursos.map((el,i) => {
@@ -216,6 +218,7 @@ cursos.map((el,i) => {
 })
 */
 
+/*
 let array = [1,2,5,4]
 
 let dobro = array.map((el,i)=>{
@@ -223,5 +226,22 @@ let dobro = array.map((el,i)=>{
 })
 
 console.log(dobro)
+*/
+
+// filter
+
+const idades = [10,14,40,20,25]
+
+const maior = idades.filter((user) => {
+  if(user >= 18)
+    return user
+  
+})
+
+console.log(maior)
+
+
+
+
 
 
