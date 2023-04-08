@@ -343,7 +343,8 @@ for(let i = 0;i < array.length;i++) {
 }
 */
 
-const lista = [10,12,15,18]
+/*
+const lista = [10,3,1,17]
 
 const verificar = lista.some((elemento)=>{
   return elemento >= 18
@@ -354,6 +355,35 @@ if(verificar){
 } else {
   console.log("array nao conforme")
 }
+*/
+
+
+/*
+const lista = [10,12,10,11]
+
+function verificar (array) {
+  for(i = 0;i <= lista.length;i++) {
+    if(array[i] >= 18) {
+       return true
+    } 
+  }
+
+  return false
+}
+
+if(verificar(lista)) {
+  console.log('Ok')
+} else {
+  console.log('array não conforme')
+}
+*/
+
+// reduce (reduzir os elementos do array e fornecer um resultado)
+
+
+
+
+
 
 
 
