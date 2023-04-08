@@ -275,30 +275,88 @@ const array1 = [1, 30, 39, 29, 10, 13];
 console.log(array1.every(isBelowThreshold));
 */
 
+/*
+let array = [10,12,40]
 
-let arrays = [20,11,20,40]
-
-const verificar = arrays.every((elemento,i) => {
-  if(elemento >= 18) {
-    console.log("ok")
-  } else {
-    console.log("array incorreto")
+const verificando = array.every((elemento)=>{
+  if(elemento <= 40) {
+    return elemento
   }
- 
-}) 
+})
 
+console.log(verificando)
+*/
+
+/*
 
 const somar = ((v1,v2) => {
   let a = v1+v2 
   if(a > 30) {
-    console.log("maior " + a)
+    return "maior " + a
   } else { 
-    console.log("menor " + a) 
+    return "menor " + a 
   }
   
 })
 
-console.log(somar(1,20))
+console.log(somar(33,20))
+*/
+
+
+// some (verifica se pelo menos um elemento passa no teste fornecido)
+
+/*
+let array = [10,11,13,18,14,15]
+
+const verifica = array.some((user)=>{
+  if(user >= 18) {
+    console.log("ok")
+  } 
+  if(user < 18) {
+    console.log("erro")
+  }
+})
+
+*/
+/*
+const array = [30,20,19,18]
+
+const verificar = array.some((elemento)=>{
+  if(elemento >= 18) {
+    console.log("ok")
+  } else {
+    console.log("array não conforme")
+  }
+})
+*/
+
+/*
+let array = [10,12,13,14,18]
+let erro = "não encontrado"
+for(let i = 0;i < array.length;i++) {
+  if(array[i] >= 18) {
+    console.log('ok')
+  } else {
+    console.log(erro)
+  }
+  
+}
+*/
+
+const lista = [10,12,15,18]
+
+const verificar = lista.some((elemento)=>{
+  return elemento >= 18
+})
+
+if(verificar){
+  console.log("Ok")
+} else {
+  console.log("array nao conforme")
+}
+
+
+
 
 
 
