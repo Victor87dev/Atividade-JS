@@ -378,7 +378,62 @@ if(verificar(lista)) {
 }
 */
 
+
+/*
+let array = [10,1,1,18]
+
+const conta = array.some((arr) => {
+  return arr >= 18
+})
+
+if(conta) { 
+  console.log('correto')
+} else {
+  console.log('errado')
+} 
+
+
+let completando = [15,10,4,9]
+
+function modoAlternativo(numbers) {
+  for(i = 0;i <= numbers.length;i++) {
+    if(numbers[i] >= 18) {
+      return true
+    }
+  }
+
+  return false
+}
+
+if(modoAlternativo(completando)) {
+  console.log('correto')
+} else {
+  console.log('incorreto')
+} 
+
+*/
+
 // reduce (reduzir os elementos do array e fornecer um resultado)
+/*
+const array = [30,1,1,100]
+
+const soma = array.reduce((anterior,atual)=> {
+ return anterior + atual 
+})
+
+console.log(soma)
+*/
+
+// iteradores 
+
+const valores = [10,100,12]
+const numbers = valores[Symbol.iterator]()
+
+console.log(valores)
+console.log(numbers.next())
+console.log(numbers.next())
+console.log(numbers.next())
+console.log(numbers.next())
 
 
 
