@@ -425,8 +425,8 @@ console.log(soma)
 */
 
 // iteradores 
-
-const valores = [10,100,12]
+/*
+const valores = [10,1,12]
 const numbers = valores[Symbol.iterator]()
 
 console.log(valores)
@@ -434,6 +434,12 @@ console.log(numbers.next())
 console.log(numbers.next())
 console.log(numbers.next())
 console.log(numbers.next())
+*/
+
+// push (adiciona um novo elemento no final do array)
+// pop (remove o ultimo elemento do array)
+// unshift (adicona um novo elemento no inicio do array)
+// shift (remove  primeiro elemento do array)
 
 
 
