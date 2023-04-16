@@ -439,7 +439,18 @@ console.log(numbers.next())
 // push (adiciona um novo elemento no final do array)
 // pop (remove o ultimo elemento do array)
 // unshift (adicona um novo elemento no inicio do array)
-// shift (remove  primeiro elemento do array)
+// shift (remove o primeiro elemento do array)
+
+let numeros = [1,2,3]
+
+function soma(num) {
+   const somar = num.reduce((atual,anterior)=> {
+    return atual += anterior
+   })
+   return somar
+}
+
+console.log(soma(numeros))
 
 
 
