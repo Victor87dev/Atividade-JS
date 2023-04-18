@@ -248,7 +248,8 @@ console.log(arrays(arrays1,arrays2))
 const numeros = [1,40,3,4,75]
 
 function mediaDosNumeros(numero) {
-
+  
+   
   const somaDasNotas = numero.reduce((acumulador, valor) =>{
 
     acumulador += valor 
@@ -261,8 +262,8 @@ function mediaDosNumeros(numero) {
 }
 
 console.log(mediaDosNumeros(numeros))
-*/
 
+*/
 // criar um array com numeros e depois retornar os
 //numeros pares desse array, usando função.
 
@@ -851,6 +852,7 @@ function nomeTras(palavra) {
 console.log(nomeTras('dad'))
 */
 
+/*
 let numeros = [10,75,4,6,33]
 
 function multi2(b) {
@@ -862,7 +864,7 @@ function multi2(b) {
 }
 
 console.log(multi2(numeros))
-
+*/
 /*
 let frase = 'manipulando strings com javascript'
 
