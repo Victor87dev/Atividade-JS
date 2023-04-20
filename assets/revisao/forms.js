@@ -17,6 +17,22 @@ function maior(elemento) {
 }
 
 console.log(maior(array))
+
+const listaNumeros = [10,12,45,150,77,124]
+let maiorNumero = 0
+
+function procurandoMaior() {
+  for(let i = 0;i < listaNumeros.length;i++){
+    numberToCheck = listaNumeros[i]
+
+    if(numberToCheck >= maiorNumero) {
+      maiorNumero = numberToCheck
+    } 
+}
+return maiorNumero 
+}
+
+console.log(procurandoMaior())
 */
 
 // 3 - atividade 
@@ -49,6 +65,34 @@ function media(elemento) {
 
 console.log(media(array))
 */
+
+// 5 - atividade
+
+/*
+let arrayDeNumeros = [10,45,47,56,22,89,18,16,6,74]
+
+function pares(arr) {
+  let novoArrayPar = []
+
+  for (i = 0;i <= arr.length;i++) {
+    if(arr[i] % 2 === 0) {
+      novoArrayPar.push(arr[i])
+    }
+  }
+
+return novoArrayPar
+}
+
+console.log(pares(arrayDeNumeros))
+*/
+
+// 6 - atividade 
+
+
+
+
+
+
 
 
 

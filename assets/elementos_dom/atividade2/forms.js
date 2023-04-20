@@ -1,16 +1,20 @@
 // getElementByClassName ------ (pega elemento por classe)
+//const btn1 = document.querySelector('#c1')
+const todasDivs = [...document.querySelectorAll('.curso')]
 
-const todosCursos = [...document.getElementsByClassName("curso")]
-const cursosC1 = [...document.getElementsByClassName("c1")]
-const cursosC2 = [...document.getElementsByClassName("c2")]
-const cursoEspecial = document.getElementsByClassName("curso")[0]
+// const msg = ()=>{
+//   alert('clicou')
+// }
 
+// btn1.addEventListener('click',(evt)=>{
+//   const el = evt.target
+//   el.classList.add("destaque") 
+// })
 
-console.log(todosCursos)
-console.log(cursosC1)
-console.log(cursosC2)
-console.log(cursoEspecial)
-
-cursosC1.map((ele) => {
-  ele.classList.add("destaque")// adiciona a classe "destaque"
+todasDivs.map((el)=>{
+  el.addEventListener("click",(evt)=>{
+    const ele = evt.target
+    ele.classList.add("destaque")
+    console.log(ele.innerHTML + " foi clicado")
+  })
 })

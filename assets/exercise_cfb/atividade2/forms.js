@@ -6,11 +6,11 @@ const elementos_array = [10,12,11,11,9,11]
 p_array.innerHTML = "[" + elementos_array + "]"
 
 btnVerificar.addEventListener("click",(evt) => {
-  const verificarEvery = elementos_array.some((elementos,i) => {
+  const verificarSome = elementos_array.some((elementos,i) => {
    return elementos >= 18
   })
 
-  if(verificarEvery) {
+  if(verificarSome) {
     resultado.innerHTML = 'correto'    
   } else {
     resultado.innerHTML = 'incorreto'    
