@@ -350,7 +350,7 @@ console.log(numeros)
 // somar apenas os numeros positivos do array
 
 /*
-let arrays = [10,-7,5,2];
+let arrays = [10,-7,5,2,-1,5];
 
 function somarPositivo(arr) {
   let soma = 0;
