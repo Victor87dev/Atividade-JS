@@ -66,7 +66,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin: 4.3px;
 }
 .comandos{
     width: 30%;
@@ -75,6 +75,11 @@ button{
     align-items: center;
 }
 #caixaNovoCurso input{
-    margin: 10px;
+    margin: 15px;
     padding: 5px;
 }
+
+#btnAdicionarNovoCursoDepois, #btnAdicionarNovoCursoAntes{
+    margin: 6px;
+}
+
