@@ -34,11 +34,11 @@ const radioSelecionado = () => {
 
 btnCursoSelecionado.addEventListener("click",(evt) => {
   const rs = radioSelecionado()
-  if(rs!=undefined) {
+  try{
     const cursoSelecionado = rs.parentNode.previousSibling.textContent
-    alert("Curso selecionado: " + cursoSelecionado)  
-  } else {
-    alert("Curso não selecionado")
+    alert("Curso selecionado: " + cursoSelecionado)
+  }catch(ex){
+    alert("Selecione um curso")
   }
 })
 
