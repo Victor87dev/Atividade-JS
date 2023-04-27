@@ -28,22 +28,22 @@ const criarNovoCurso = (curso)=>{
   return novoElemento
 }
 
-cursos.map((el,chave) => {
+cursos.map((el,chave)=>{
   
   const novoElemento = criarNovoCurso(el)
   caixaCursos.appendChild(novoElemento)  
   indice++
 })
 
-const radioSelecionado = () => {
+const radioSelecionado = ()=>{
   const todosRadios = [...document.querySelectorAll("input[type=radio]")]
-  const radioSelecionado = todosRadios.filter((ele,ind,arr) => {
+  const radioSelecionado = todosRadios.filter((ele,ind,arr)=>{
     return ele.checked
   })
   return radioSelecionado[0]
 }
 
-btnCursoSelecionado.addEventListener("click",(evt) => {
+btnCursoSelecionado.addEventListener("click",(evt)=>{
   const rs = radioSelecionado()
   try{
     const cursoSelecionado = rs.parentNode.previousSibling.textContent
@@ -53,7 +53,7 @@ btnCursoSelecionado.addEventListener("click",(evt) => {
   }
 })
 
-btnRemoverCurso.addEventListener("click", (evt) => {
+btnRemoverCurso.addEventListener("click",(evt)=>{
   const rs = radioSelecionado()
 
   if(rs!=undefined) {
