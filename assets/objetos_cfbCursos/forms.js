@@ -152,28 +152,24 @@ let p1 = new Pessoa()
 console.log(p1.nome)
 */
 
-
+/*
 class Pessoa{
-  
   constructor(pnome,pidade){
     this.nome = pnome
     this.idade = pidade
   }
-
   getNome(){
     return this.nome
   }
   getidade(){
     return this.idade
   }
-
   setNome(nome){
     return this.nome = nome
   }
   setidade(idade){
     return this.idade = idade
   }
- 
   info(){
    console.log(`Nome: ${this.nome}`)
    console.log(`Idade: ${this.idade}`)
@@ -207,7 +203,96 @@ btn_add.addEventListener("click",(evt)=>{
   addPessoa()
 })
 
+*/
 
+// usando com function e function anonima --------------------
 
+/*
+function Pessoa(pnome,pidade){
+  
+  this.nome = pnome,
+  this.idade = pidade,
+  
+  this.getNome=function(){
+    return this.nome
+  },
+  this.getidade=function(){
+    return this.idade
+  },
+  this.setNome=function(nome){
+    return this.nome = nome
+  },
+  this.setidade=function(idade){
+    return this.idade = idade
+  },
+  this.info=function(){
+   console.log(`Nome: ${this.nome}`)
+   console.log(`Idade: ${this.idade}`)
+   console.log("--------------------------")
+  } 
+}
 
+let pessoas = []
 
+const btn_add = document.querySelector("#btn_add")
+const res = document.querySelector(".res")
+
+const addPessoa = ()=>{
+  res.innerHTML = ""
+  pessoas.map((p)=>{
+    const div = document.createElement("div")
+    div.setAttribute("class","pessoa")
+    div.innerHTML = `Nome: ${p.getNome()}<br/>Idade:${p.getidade()}`
+    res.appendChild(div)
+  })
+}
+
+btn_add.addEventListener("click",(evt)=>{
+  const nome = document.querySelector("#f_nome")
+  const idade = document.querySelector("#f_idade")
+  const p = new Pessoa(nome.value,idade.value)
+  pessoas.push(p)
+  nome.value=""
+  idade.value=""
+  nome.focus()
+  addPessoa()
+})
+*/
+
+// o mesmo exemplo usando objetos literais e usando for in para percorrer o objeto 
+
+const Pessoa={
+  nome:"",
+  idade:0,
+  setNome:function(nome){
+      this.nome=nome
+  },
+  setIdade:function(idade){
+      this.idade=idade
+  },
+  getNome:function(){
+      return this.nome
+  },
+  getIdade:function(){
+      return this.idade
+  }
+}
+
+const addPessoa=()=>{
+  for(let prop in Pessoa){
+      let res=document.querySelector(".res")
+      const div=document.createElement("div")
+      div.setAttribute("class","pessoa")
+      div.innerHTML=`Name: ${Pessoa.nome}<br/>Idade: ${Pessoa.idade}`
+      res.appendChild(div)
+      break
+  }
+}
+
+btn_add.addEventListener("click",(evt)=>{
+  const nome=document.querySelector("#f_nome")
+  const idade=document.querySelector("#f_idade")
+  Pessoa.setNome(nome.value)
+  Pessoa.setIdade(idade.value)
+  addPessoa()
+})
