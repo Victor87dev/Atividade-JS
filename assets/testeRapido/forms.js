@@ -43,7 +43,7 @@ btn_addCandidato.addEventListener("click",(evt)=>{
   p_candidato.push(p)
   gerenciarExibicaoCandidatos()
   f_nome.value = ""
-  f_idade.value = 0
+  f_idade.value = ""
   f_experiencia.value = ""
   f_area.value = ""
 })
