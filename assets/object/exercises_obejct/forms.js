@@ -126,3 +126,71 @@ function mediaDasNotas(nota){
 
 console.log("a media das notas do aluno " + aluno.nome + " é:" + mediaDasNotas(aluno.notas))
 */
+
+let computador = {
+  cpu:"i9",
+  ram:"64gb",
+  hd:"2tb",
+  info:function(){
+    console.log(`CPU:${this.cpu}`)
+    console.log(`RAM:${this.ram}`)
+    console.log(`HD:${this.hd}`)
+  }
+}
+// adicionando mais propriedades ao objeto 
+computador["monitor"]="22pol"
+computador.placaVideo = "rtx"
+delete(computador.hd)
+// como posso chamar 
+// console.log(computador.cpu)
+// console.log(computador)
+// console.log(computador["monitor"])
+
+const computadores = [
+  {
+    cpu:"i9",
+    ram:"64gb",
+    hd:"2tb" 
+  },
+  {
+    cpu:"i10",
+    ram:"452gb",
+    hd:"2tb" 
+  },
+  {
+    cpu:"i99",
+    ram:"12gb",
+    hd:"5tb" 
+  }
+]
+
+// computador.info()
+// console.log(computador)
+// objetos.innerHTML = JSON.stringify(computadores)
+
+computadores.forEach((c)=>{
+  const div = document.createElement("div")
+  div.innerHTML = c.cpu + "<br/>" + c.ram + "<br/>" + c.hd
+  div.setAttribute("class","computador")
+  objetos.appendChild(div)
+})
+
+// clonando objeto
+
+const c1 = Object.assign({},computador)
+c1.info()
+
+// unindo objeto
+
+const o1 = {obj1:"1"}
+const o2 = {obj2:"2"}
+const o3 = {obj3:"3"}
+const o4 = Object.assign(o1,o2,o3)
+
+console.log(o4)
+
+// criando um objeto de um objeto ja existente 
+
+const c2 = Object.create(computador)
+c2.cpu = "i87"
+c2.info()
